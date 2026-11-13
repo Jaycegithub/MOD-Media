@@ -174,7 +174,7 @@ The detailed, copy-ready page-by-page plan is in Section 13. The ten most import
 ## 8. Facebook strategy (summary)
 
 - **Why Facebook:** DFW small-business owners, restaurant and bar owners, real estate agents and event promoters are active on Facebook, and Facebook ads can target them by location, interests and job role. It's also where local business owners check a company's reviews and recent activity before calling.
-- **Posting rhythm:** 4–5 posts per week (truck photos, carousels and designed graphics), with photo Stories on route nights.
+- **Posting rhythm:** 3–4 posts per week, up to 15 per month (truck photos, carousels and designed graphics), with photo Stories on route nights.
 - **Community:** share route updates and client spotlights in relevant local Facebook groups where the group rules allow it, and reply to every comment and message within business hours.
 - **Photos:** every route night and event is a photo opportunity. Photograph the truck in front of recognisable DFW landmarks with the client's ad on screen (with the client's permission). The client or drivers take the photos on a phone, and posts are designed from them in Canva.
 - **Paid (optional add-on):** Facebook Lead Ads (instant form) for a "Free Route Plan + Quote" offer, plus retargeting of website visitors and Page engagers. Details are in Section 15.
@@ -216,7 +216,7 @@ Full task tables are in Section 20.
 | Every month | Activity |
 |---|---|
 | Week 1 | Report on leads by channel, Search Console queries and GBP insights. Agree next month's priority pages and events |
-| Weekly | GBP post (route schedule, event, client spotlight); 4–5 Facebook posts; review requests to every completed campaign |
+| Weekly | GBP post (route schedule, event, client spotlight); 3–4 Facebook posts; review requests to every completed campaign |
 | Monthly | 2 high-intent articles or landing pages; 1 case study; refresh the event calendar page; 2–4 earned link or PR outreach pushes |
 | Monthly (paid) | Facebook ad creative and audience tests; landing-page A/B test |
 | Quarterly | Content refresh of the top 10 pages; competitor SERP review; budget re-allocation by cost per qualified lead |
@@ -227,8 +227,8 @@ Simple monthly pricing: one core service plus two optional add-ons. There are no
 
 | Service | What's included | Monthly fee |
 |---|---|---|
-| **Website & SEO** (core) | New modern website design (included), on-page SEO (titles, headings, content, schema), off-page SEO (local citations, links, directories), site speed optimisation, new articles and landing pages every month, technical fixes, tracking and a monthly SEO report | **$699** |
-| **Facebook** (add-on) | Facebook Page set-up and optimisation, regular posts (truck photos, route updates, client spotlights), designed graphics in MOD Media branding, monthly content calendar | **$199** |
+| **Website & SEO** (core) | New modern website design (included), on-page SEO (titles, headings, content, schema), off-page SEO (local citations, links, directories), site speed optimisation, up to 5 new articles or landing pages per month, technical fixes, tracking and a monthly SEO report | **$699** |
+| **Facebook** (add-on) | Facebook Page set-up and optimisation, up to 15 posts per month (truck photos, route updates, client spotlights), designed graphics in MOD Media branding, monthly content calendar | **$199** |
 | **Google Business Profile** (add-on) | Profile clean-up (pin, categories, services, photos), weekly Google posts, review request program and review replies, Q&A and photo updates | **$149** |
 | **All three together** | Recommended: the website, Google Maps and Facebook reinforce each other | **$1,047** |
 | **Optional: Google Ads / Meta Ads management** | Campaign set-up, targeting, creative and monthly optimisation | Quoted separately. Ad budget is paid directly to Google or Meta |
@@ -595,7 +595,7 @@ Columns: Title | Primary KW | Secondary | Intent | Audience | Slug | H2 outline 
 | 24 | Rockwall & Rowlett Small Business Marketing Guide | Rockwall marketing | Rowlett advertising | Commercial local | Local SMBs | `/blog/rockwall-small-business-marketing/` | Local media options · Route schedule · Chamber events | Rockwall page | Quote | P2 |
 | 25 | Is Mobile Billboard Advertising Legal in Dallas? Rules & Permits | mobile billboard laws Texas | truck advertising regulations | Informational | All | `/blog/mobile-billboard-laws-texas/` | State & city rules (cite sources only) · Parking/idling · What MOD handles | FAQ | Quote | P2 (only with verified legal sources) |
 
-Each article must include real MOD photos, a "Get a quote" block and links to two or more service pages. Publish 2 per month at most. Quality and proof matter more than volume.
+Each article must include real MOD photos, a "Get a quote" block and links to two or more service pages. Publish up to 5 per month. Quality and proof matter more than volume.
 
 ## 13. Phase 7 — On-page SEO implementation (copy-ready)
 
@@ -863,7 +863,7 @@ SMB owners within ~25 mi of Dallas; restaurant and bar owners (Deep Ellum, Uptow
 | 30 | Offer post | Designed graphic | "New clients: free ad design on your first route" (if offered) | Claim offer (Lead Ad) | SMBs |
 
 ### Facebook post guidelines
-- **Cadence:** 4–5 posts per week, plus photo Stories on route nights.
+- **Cadence:** 3–4 posts per week (up to 15 per month), plus photo Stories on route nights.
 - **Mix:** about 40% truck and route photos, 20% client spotlights and testimonials, 20% tips and education (carousels or designed graphics), 20% offers and availability.
 - **Photo rules:** shoot the truck with the screen lit and a recognisable DFW landmark in frame, get the client's ad on screen (with permission), and avoid team logos or anything that implies an official sponsorship.
 - **Design:** use one consistent Canva template (MOD Media colours, logo and font) so posts are recognisable in the feed. Keep text on images short.
@@ -1115,7 +1115,7 @@ What realistically helps. We can't promise inclusion.
 | 3 case studies with client permission | High | 4 h each | Medium | High (trust, AI) | Client approval, data |
 | Chamber memberships + local PR pitch | Medium | 6 h | Medium | Medium | Budget |
 | Facebook retargeting + lead campaigns | High | 4 h | Medium | Medium–High | Pixel, creative |
-| Weekly Facebook posting (4–5/wk) | High | Ongoing | Easy | Medium | Photos |
+| Weekly Facebook posting (3–4/wk, up to 15/month) | High | Ongoing | Easy | Medium | Photos |
 | Competitor gap pages (Rockwall terms, Frisco hotspot terms) | Medium | 4 h | Easy | Medium | — |
 | Facebook ads: audience and creative tests | High | 2 h/wk | Medium | High | Data |
 
@@ -1164,7 +1164,7 @@ Fix the trust breakers and tracking in week one. Rebuild the homepage and four s
 7. **Rebuild the homepage and the four core service pages** with real truck photos and video, route schedules, how-it-works, FAQs and proof. Merge the duplicate nightlife pages. *(Week 2–5)*
 8. **Optional: launch Facebook lead and retargeting ads** (DFW business owners, "Free Route Plan" offer) once the Meta Pixel and landing pages are fixed. *(Week 3–4)*
 9. **Clean up the site:** delete the spam hello-world post, disable the author and category archives, compress the 21 MB video and 1 MB PNGs, and rewrite the city pages to remove wrong-city boilerplate. *(Week 1–6)*
-10. **Start the review and content engine:** review requests after every campaign, 4–5 Facebook posts a week, and one case study a month, amplified with Facebook retargeting. *(Week 3 onward)*
+10. **Start the review and content engine:** review requests after every campaign, 3–4 Facebook posts a week (up to 15 a month), and one case study a month, amplified with Facebook retargeting. *(Week 3 onward)*
 
 ---
 
