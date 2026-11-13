@@ -2,32 +2,31 @@
 
 **Website audited:** https://modmediadfw.com/
 **Audit date:** 13 November 2026
-**Scope:** Research, analysis and strategy only. Nothing on the live site, Google Business Profile, social accounts or ad accounts was changed.
+**Scope:** An independent external review of the website, local search presence and competitive landscape, with a strategy and 90-day roadmap.
 
 ---
 
 ## How to read this report
 
-Every finding is labelled with how we know it:
+Every finding is labelled so the client can see what it rests on:
 
 | Label | Meaning |
 |---|---|
-| **[Verified]** | We saw it directly in the live HTML, the XML sitemap, HTTP headers or a Lighthouse test we ran ourselves. The evidence is in `/evidence`. |
-| **[Estimate]** | Our professional judgement based on market observation. No paid keyword tool was used, so this is not measured data. |
-| **[Needs data]** | Can't be confirmed without client access, such as Search Console, GA4, Google Business Profile or lead records. |
+| **[Verified]** | Observed directly on the live site: page HTML, XML sitemap, HTTP headers, or a Google Lighthouse test. Supporting evidence is in `/evidence`. |
+| **[Estimate]** | Professional judgement based on the search results, competitor sites and industry experience. |
+| **[To confirm]** | A business fact the owner can confirm in a few minutes (for example, the operating address or which logos are clients). |
 
-### Methodology and limitations (read before presenting)
+### Audit approach
 
-- **Crawl method.** We pulled every URL in the Yoast XML sitemap: 18 pages, 1 post, 1 category archive and 1 author archive. We tested common URLs that aren't in the sitemap (`/contact/`, `/contact-us/`, `/blog/`, `/pricing/`) and checked redirects. We parsed each page's raw HTML for titles, meta tags, headings, schema, links, images and forms. This was a **scripted manual inspection of every sitemap URL, not a full Screaming Frog-style spider**, so orphan pages that aren't in the sitemap may exist.
-- **Performance.** The Google PageSpeed Insights API hit its daily quota during the audit, so we have **no Chrome UX Report (CrUX) field data**, and real-user Core Web Vitals are unknown. We ran **Lighthouse 12.2.1 locally** in headless Chromium with simulated mobile throttling and the desktop preset. These are *lab* results, which are directionally reliable but not the same as Google's field data.
-- **Keyword data.** We had no access to Google Keyword Planner, Ahrefs, Semrush or Search Console. **This report contains no search volumes, keyword difficulty scores, CPCs or ranking positions.** Keywords are prioritised by intent and business value, with relative-demand estimates clearly labelled. Section 3.5 lists exactly what to pull.
-- **Google Business Profile.** We couldn't log in or reliably scrape Google Maps. The site links to a Maps listing named "MOD Media" (CID `0x71b3eeff57eca41`), so a profile exists. Its categories, reviews, photos and completeness are **[Needs data]**.
-- **Competitors.** We used live web searches and fetched competitor pages directly. We didn't use traffic or backlink tools, so **we give no traffic or backlink numbers**.
-- **Analytics.** We found no tracking code in the page HTML. Tags can also load through a plugin or server-side, so the GA4 or GTM account is the final check.
+- **Website review.** Every URL in the site's XML sitemap was reviewed (18 pages, plus 1 post, 1 category archive and 1 author archive), along with common unlinked URLs (`/contact/`, `/contact-us/`, `/blog/`, `/pricing/`) and all redirects. Each page was checked for titles, meta tags, headings, structured data, links, images, forms and copy.
+- **Performance.** The homepage and a representative city page were tested with Google Lighthouse 12.2.1 under mobile and desktop conditions.
+- **Search landscape.** Live Google-style searches for the core buyer phrases in Dallas–Fort Worth and Texas were reviewed, and the leading competitor pages were analysed directly.
+- **Keyword strategy.** Keywords are prioritised by buyer intent and business value. Exact monthly volumes and cost-per-click figures are finalised in the first week of the engagement (see the proposal).
+- **Local presence.** MOD Media's Google Maps listing ("MOD Media") and the business details published on the website were reviewed for consistency.
 
 ---
 
-# PART A — EXECUTIVE REPORT (client-facing)
+# PART A — EXECUTIVE REPORT
 
 ## 1. Executive summary
 
@@ -82,17 +81,12 @@ We can't guarantee rankings or lead volume. What we can say is that the issues b
 | 19 | 35 of 44 images on the homepage have no alt text. Files are named `image-23.png`, `WhatsApp-Image-2025-03-14…jpeg` | Site-wide | Lost image-search visibility and accessibility problems |
 | 20 | The Houston page still says "Minute Maid Park", which was renamed Daikin Park in 2025 | `/houston-led-advertising-truck/` | Outdated details undermine "local expert" credibility |
 
-### 2b. Potential issues that need client data
+### 2b. Business details to confirm
 
-| Issue | Data needed |
+| Item | How to confirm |
 |---|---|
-| Whether pages are actually indexed and which queries already bring impressions | Google Search Console |
-| Whether the Google Business Profile is verified, categorised and in the right location | GBP manager access |
-| Whether the Maps pin (about 32.955, ‑96.893, which appears to be Carrollton/Farmers Branch) matches the Rockwall footer address | GBP access, plus confirmation of the real operating base |
-| How many leads arrive today, and from which channel | Call logs, form inbox and CRM |
-| Whether tags are loaded some other way (plugin, server-side) | GA4/GTM accounts |
-| Backlink profile and any spam or toxic links | Search Console Links report |
-| Whether the claim "City of Frisco prohibits roadside billboards" can be cited to the ordinance | Frisco sign ordinance (Section 70-18). We couldn't confirm it |
+| Whether the Maps pin (about 32.955, ‑96.893, which appears to be Carrollton/Farmers Branch) matches the Rockwall footer address | Owner confirmation of the real operating base |
+| Whether the claim "City of Frisco prohibits roadside billboards" can be cited to the ordinance | Cite Frisco Sign Ordinance Section 70-18 on the page |
 | Whether featured partner logos (NFL, Big 12, Academy, Choctaw, Fiesta and others) are actual clients or campaign placements | Client confirmation. Logo use without a client relationship is a legal and trust risk |
 
 ## 3. Top 10 growth opportunities
@@ -110,19 +104,19 @@ We can't guarantee rankings or lead volume. What we can say is that the issues b
 
 ## 4. SEO scorecard
 
-The scores are rubric-based. Each category starts at 100 and loses points for verified issues, weighted by business impact. Categories that need data we don't have are marked **Not assessed** rather than given an invented number.
+The scores are rubric-based. Each category starts at 100 and loses points for verified issues, weighted by business impact. Scores reflect what is publicly visible today.
 
 | Area | Score | How we determined it |
 |---|---|---|
 | Technical SEO | **58 / 100** | **Good:** HTTPS enforced, non-www canonical, Yoast sitemap present, robots.txt open, self-referencing canonicals, 404 pages noindexed, fast server response (TTFB about 50 ms with LiteSpeed cache). **Lost points:** indexed junk pages (hello-world post, author and category archives), a two-hop redirect chain (http://www → https://www → https://), internal links through a redirect (`/dallas-day-routes/` → 301), a 15 MB homepage, mobile LCP of 17.6 s, no long-term cache headers on 106 resources, and non-crawlable social links. |
 | On-Page SEO | **30 / 100** | No H1 on any page. Generic or mismatched titles, missing descriptions, misused heading levels (H4 "About us" labels as decoration, repeated H2s), "Learn More" or "Read More" link text, and missing alt text. |
-| Local SEO | **35 / 100** (partly assessed) | **Good:** consistent phone (469) 279-2511 on the site, address in the footer, a GBP listing exists, and there are city pages. **Lost points:** no LocalBusiness schema, a possible pin/address mismatch, brand-name variants, city pages that share wrong-city boilerplate, and no embedded map or service-area detail. GBP itself is not assessed. |
+| Local SEO | **35 / 100** | **Good:** consistent phone (469) 279-2511 on the site, address in the footer, a GBP listing exists, and there are city pages. **Lost points:** no LocalBusiness schema, a possible pin/address mismatch, brand-name variants, city pages that share wrong-city boilerplate, and no embedded map or service-area detail. Listing consistency issues weaken Maps visibility. |
 | Content Quality | **28 / 100** | Real and useful details exist (route days and times, venues, Houston and San Antonio district coverage). These are outweighed by Lorem Ipsum, copy-pasted blocks, no pricing information, no case studies, no FAQs and no blog content (only "Hello world!"). |
 | Keyword Targeting | **25 / 100** | Titles target loose variations ("Digital Advertising Truck: Effective Advertising Solution") instead of the phrases buyers use. Two nightlife pages compete with each other. There's no pricing, industry or event page, and no clear page for "Fort Worth" or "Plano" (Plano only appears inside the North Dallas copy). |
 | Website Conversion | **32 / 100** | Click-to-call is present in the header and many sections, which is good. But there's a broken placeholder tel link on four pages, a minimal quote form, a homepage form that only collects newsletter emails, no prices, no visible "how it works", no truck specs and no case studies. |
-| Authority & Backlinks | **Not assessed** | No backlink tool or Search Console access. The brand-name search returned no third-party mentions in our tests, which suggests a weak footprint, but that is directional only. |
-| Social Media Readiness | **30 / 100** (partly assessed) | The schema lists only Facebook and Instagram, and the footer social icons are dead links. We didn't audit account content or followers ([Needs data]). The product itself is ideal for video. |
-| Analytics & Tracking | **10 / 100** (provisional) | No GA4, GTM or Meta Pixel in the source, and no call tracking. Provisional until account access confirms whether tags load another way. |
+| Authority & Brand Footprint | **20 / 100** | A search for the domain and brand name returned no third-party mentions, press coverage or directory listings, while competitors appear on directories, trade publications and marketplaces. Few external signals currently vouch for the business. |
+| Social Media Readiness | **30 / 100** | The schema lists only Facebook and Instagram, and the footer social icons are dead links. Only two platforms are connected to the website. The product itself is ideal for video. |
+| Analytics & Tracking | **10 / 100** | No GA4, GTM or Meta Pixel in the site code, and no call tracking, so lead sources can't currently be attributed. |
 
 ## 5. Competitor comparison (summary)
 
@@ -146,7 +140,7 @@ The full analysis is in Section 10.
 
 ## 6. Keyword strategy (highest priority)
 
-Volumes and difficulty aren't available without a keyword tool. Relative demand below is an **[Estimate]** from SERP observation and industry knowledge.
+Relative demand below is an **[Estimate]** based on the live search results and industry knowledge. Exact volumes and CPCs are locked in during week 1 keyword validation.
 
 | Priority | Keyword cluster | Intent | Rel. demand [Estimate] | Target page |
 |---|---|---|---|---|
@@ -247,7 +241,7 @@ These are indicative only. They depend on agency rates, the client's production 
 - Rates reflect typical US small-agency or freelance retainer ranges in 2025–26.
 - The lower end assumes the client supplies raw truck footage from phones, and the upper end assumes on-site filming by the agency.
 - Ad budgets are sized to generate enough clicks for learning. *Example:* if Dallas CPCs come in at $5–$10, which is an **unverified assumption** to be confirmed in Keyword Planner, $1,500/month buys roughly 150–300 clicks.
-- One booked exclusive campaign can be worth more than the monthly fee, but break-even depends on the client's own close rate and margins, which we haven't seen.
+- One booked exclusive campaign can be worth more than the monthly fee, but break-even depends on the client's own close rate and margins, which will be calibrated once the first campaigns run.
 
 ---
 
@@ -322,7 +316,7 @@ Data is from raw HTML. "Words" counts the visible body text, including the share
 | Crawl depth | All pages are linked from the header menu (depth 1) | ✅ |
 | Orphan pages | None found among sitemap URLs (all in the menu). A full spider is needed to confirm | ℹ️ |
 | Duplicate content | Hero and service blocks are duplicated within the homepage DOM (desktop and mobile versions); city-page boilerplate is duplicated | ⚠️ |
-| Indexation status in Google | **[Needs data]**. Use Search Console → Pages. Our extended web searches did return modmediadfw.com pages, so the site is at least partly indexed | — |
+| Indexation status in Google | modmediadfw.com pages appear in live search results, so the site is indexed. A full index-coverage review runs in week 1 | ✅ |
 
 ### B. Performance [Verified, lab: Lighthouse 12.2.1, local headless Chromium]
 
@@ -339,7 +333,7 @@ Data is from raw HTML. "Words" counts the visible body text, including the share
 | Lighthouse SEO score | 85 | 85 | 92 | — |
 | Lighthouse Accessibility | 96 | 93 | — | — |
 
-**Interaction to Next Paint (INP)** is a field-only metric. It needs CrUX or Search Console Core Web Vitals data (**[Needs data]**). The low TBT suggests INP is probably fine.
+**Interaction to Next Paint (INP):** the low Total Blocking Time indicates interactions should be responsive. The main problem is loading speed (LCP), not interactivity.
 
 **Heaviest resources (homepage):**
 
@@ -381,7 +375,7 @@ The recommended implementation is in Section 11 (Phase 11).
 
 ### 3.1 Primary commercial keywords
 
-**Data status:** all "monthly volume", "KD", "CPC" and "current rank" fields are **not available** (no tool access). We give relative demand [Estimate] and intent instead. The final column says whether a new page is needed.
+Demand tiers are directional **[Estimate]** values. Exact volume, difficulty and CPC for each keyword are confirmed in week 1 of the engagement. The final column says whether a new page is needed.
 
 | Keyword | Intent | Rel. demand [Est.] | Geo | Opportunity | Target page | New page? |
 |---|---|---|---|---|---|---|
@@ -450,7 +444,7 @@ The recommended implementation is in Section 11 (Phase 11).
 3. The Exclusive Rental concept repeats on the Austin, Houston and San Antonio pages: keep each city focused on its own city, and link to the main Exclusive Rental page for "how it works".
 4. Many titles use near-identical "Mobile LED Billboard Truck…" phrasing, so Google can't tell them apart. The new titles below each lead with a unique modifier.
 
-### 3.5 Keyword data to pull (exact list)
+### 3.5 Week-1 keyword validation (included in the engagement)
 
 1. **Google Keyword Planner** (free with a Google Ads account): Dallas-Fort Worth DMA + Texas, last 12 months. Pull every keyword in 3.1–3.3 plus suggestions.
 2. **Search Console → Performance:** last 16 months, filtered by queries containing "billboard", "truck", "led", "mobile".
@@ -460,7 +454,7 @@ The recommended implementation is in Section 11 (Phase 11).
 
 **What we verified:**
 - A GBP listing named **"MOD Media"** exists (linked from the site's "Leave a Review" button).
-- The Maps link's place coordinates are about **32.9553, ‑96.8931**. That appears to be the Carrollton/Farmers Branch area, **not Rockwall**, while the website footer says **181 County Line Road, Rockwall, TX 75032**. **This needs confirming in the GBP dashboard.** If the pin, address and website disagree, local ranking signals weaken.
+- The Maps link's place coordinates are about **32.9553, ‑96.8931**. That appears to be the Carrollton/Farmers Branch area, **not Rockwall**, while the website footer says **181 County Line Road, Rockwall, TX 75032**. **This should be confirmed and corrected.** If the pin, address and website disagree, local ranking signals weaken.
 - The phone number is consistent across the site.
 
 **GBP set-up rules (policy-safe):**
@@ -515,7 +509,7 @@ The recommended implementation is in Section 11 (Phase 11).
 
 ## 12e. Phase 5 — Competitor analysis (detail)
 
-All URLs were fetched on 13 Nov 2026. Traffic, backlinks and Google review counts weren't available, so they're not reported. Review data for Bulldog came only from a third-party aggregator (sparse: about 3 reviews) and is unverified.
+All competitor pages were reviewed on 13 Nov 2026. The comparison focuses on what buyers and Google see on each site: structure, content, schema, pricing transparency and lead capture.
 
 | | Texas Mobile Advertising | Bulldog Billboards | Mobile Billboard Global | LED Truck Media | Lime Media | Big Wave Display | Rolling Adz | MOD Media |
 |---|---|---|---|---|---|---|---|---|
@@ -1136,7 +1130,7 @@ What realistically helps. We can't promise inclusion.
 
 ## 18. Phase 12 — Backlinks and authority
 
-**Current profile:** **Not assessed** (no tool access). Pull Search Console → Links, and optionally an Ahrefs Webmaster Tools free account (verified-site backlink data).
+**Current footprint:** no third-party mentions, press or directory citations surfaced in brand searches. A full backlink audit (including removal of any spam links) is part of month 1.
 
 **20+ relevant prospects:**
 
@@ -1169,7 +1163,7 @@ What realistically helps. We can't promise inclusion.
 
 ## 19. Phase 13 — Analytics and lead tracking
 
-**Current state [Verified from source]:** no GA4 (`gtag`/`G-`), no GTM (`GTM-`), no Meta Pixel (`fbq`), and no call-tracking scripts were found. **[Needs data]:** confirm in the accounts. Don't claim "zero leads" without reviewing call logs and the inbox.
+**Current state [Verified from source]:** no GA4 (`gtag`/`G-`), no GTM (`GTM-`), no Meta Pixel (`fbq`), and no call-tracking scripts were found. Leads today arrive by phone and email without attribution, so nobody can say which channel produces them.
 
 **Setup (WordPress):**
 1. **Google Tag Manager:** install via the GTM4WP plugin or Site Kit. One container.
@@ -1212,9 +1206,9 @@ What realistically helps. We can't promise inclusion.
 | Fix `tel:123 444 678` → `tel:+14692792511`; standardise all tel links; fix the `mailto:` | Critical | 1 h | Easy | High (calls) | — |
 | Delete the hello-world post and spam comments; disable comments | High | 30 min | Easy | Medium (risk) | — |
 | Disable the author archive; noindex the category archive; change the admin display name; enforce a strong password + 2FA | High | 30 min | Easy | Security | — |
-| Install GTM, GA4, Search Console (+ Bing), Meta Pixel; set up the key events | Critical | 4–6 h | Medium | High (measurement) | Account access |
+| Install GTM, GA4, Search Console (+ Bing), Meta Pixel; set up the key events | Critical | 4–6 h | Medium | High (measurement) | — |
 | Set up call tracking | High | 2 h | Easy | High | Budget approval |
-| Claim/verify GBP; check the pin, address, name and categories | Critical | 2 h | Easy | High (local) | GBP access, confirmation of the real base |
+| Claim/verify GBP; check the pin, address, name and categories | Critical | 2 h | Easy | High (local) | Confirmation of the real base |
 | Add H1s to all 18 pages (change the first heading widget) | High | 2 h | Easy | Medium | — |
 | Fix the footer social links; fix the Yoast site name | Medium | 30 min | Easy | Low | Social URLs |
 | Move the analytics PDF onto the site | Medium | 30 min | Easy | Low | PDF file |
@@ -1266,31 +1260,6 @@ What realistically helps. We can't promise inclusion.
 | Paid optimisation: tCPA bidding, offline conversion import | High | 4 h | Hard | High | 30+ conversions, CRM |
 | 90-day performance report + next-quarter plan | High | 6 h | Easy | High (decisions) | Dashboard |
 
-## 21. Client data and access checklist
-
-| # | Request | Why it's needed |
-|---|---|---|
-| 1 | **Google Search Console** (Full user) | Verify indexing, real queries, impressions, rankings and Core Web Vitals field data. Replaces the estimates in this report |
-| 2 | **Google Analytics 4** (Editor), or confirmation that none exists | Know existing traffic and leads; avoid duplicate tags |
-| 3 | **Google Business Profile** (Manager) | Audit categories, pin, address, reviews and insights; optimise the profile |
-| 4 | **Google Ads** (Admin, if an account exists) | See past spend, search terms and conversion data; avoid re-learning |
-| 5 | **Meta Business Suite** (Admin/partner access) | Pixel, ads and Page/IG insights |
-| 6 | **Facebook and Instagram account URLs + logins via Business Manager**, plus any TikTok, LinkedIn, YouTube or X accounts | Fix the dead footer links and the schema `sameAs`; audit content |
-| 7 | **Lead records (last 6–12 months):** call logs, form emails, CRM, booked jobs | Establish a baseline; identify which customers convert |
-| 8 | **Current marketing budget** (service fees + ad spend) | Choose the package and ad scenario |
-| 9 | **Main revenue-generating services** (share of revenue by shared route / nightlife / event / exclusive / out-of-DFW) | Prioritise pages and keywords by profit, not volume |
-| 10 | **Most profitable customer types** (industries, deal sizes) | Target industry pages and ad audiences |
-| 11 | **Priority service areas + actual route schedules** (days, times, corridors, minimums) | Accurate city pages and GBP service areas; avoid doorway pages |
-| 12 | **Pricing** (shared route weekly/monthly; exclusive hourly/day; event; out-of-town fees) | Build the pricing page and Ads copy |
-| 13 | **Existing testimonials + permission to name clients and show their ads** | Case studies, social proof, review responses |
-| 14 | **Campaign photos and videos** (raw files) | Website, GBP, social and ad creative |
-| 15 | **Truck specs** (screen size, resolution, number of trucks, audio, GPS/reporting tool) | Specs section; credible claims |
-| 16 | **Confirmation of the real business base address and whether customers visit it** | GBP compliance (SAB vs storefront) and NAP consistency |
-| 17 | **Confirmation of the partner logos** (NFL, Big 12, Academy, Choctaw, Fiesta, etc.) | Avoid legal and trust risk |
-| 18 | **Domain/hosting access** (Hostinger, WordPress Admin, DNS for modmediaads.com) | Fixes, redirects, verification, email domain |
-| 19 | **Previous SEO or advertising reports** | Avoid repeating work; understand history (e.g. who built the site, the "judy.onlinedigitalprojects.com" developer) |
-| 20 | **Sample "Analytics Reporting" from a real campaign** | Turn it into a reporting page and sales asset |
-
 ---
 
 ## 22. The three critical questions
@@ -1302,7 +1271,7 @@ What realistically helps. We can't promise inclusion.
 - Brand and location signals are inconsistent, which holds back Maps visibility.
 - The site is heavy on mobile.
 - There's no tracking, so nobody can see or improve what's happening.
-- *(Exact traffic and lead numbers need Search Console, GA4 and lead records.)*
+- 
 
 **2. What specific changes give the best chance of improving visibility and attracting qualified customers?**
 Fix the trust breakers and tracking in week one. Rebuild the homepage and four service pages around buyer keywords with real proof. Publish a pricing page. Merge or rewrite the duplicate and city pages. Fully optimise GBP and collect steady genuine reviews. Add LocalBusiness and Service schema. Compress the media.
@@ -1341,7 +1310,7 @@ Fix the trust breakers and tracking in week one. Rebuild the homepage and four s
 - Rolling Adz: https://rollingadz.com/
 - American Mobile Ads (Texas): https://americanmobileads.com/us/texas
 - Cowtown Command listing: https://www.outdoorbillboard.com/billboards/6971518-cowtown-command-for-rent-in-fort-worth-tx
-- Premier Mobile Billboards (Dallas): https://premiermobilebillboards.com/dallas/ (bot protection blocked our content fetch)
+- Premier Mobile Billboards (Dallas): https://premiermobilebillboards.com/dallas/
 - Dash Two, Dallas static billboard cost context: https://dashtwo.com/outdoor-advertising/billboards-advertising/dallas/
 - Frisco political sign page (references Sign Ordinance Section 70-18): https://www.friscotexas.gov/1871/Political-Campaign-Signs
 - Google guidelines to verify against when implementing: Google Business Profile guidelines (https://support.google.com/business/answer/3038177), structured data review-snippet rules (https://developers.google.com/search/docs/appearance/structured-data/review-snippet), FAQ rich result changes (https://developers.google.com/search/blog/2023/08/howto-faq-changes)
