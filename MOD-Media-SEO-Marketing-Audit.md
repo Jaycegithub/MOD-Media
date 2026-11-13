@@ -49,7 +49,7 @@ MOD Media has a real, differentiated product. It runs scheduled shared routes (D
 2. Install measurement.
 3. Rebuild the website in a new, modern layout, structured around buyer searches.
 4. Fully optimise Google Business Profile and start a steady review program.
-5. Build an active Facebook presence with truck photos, route updates and client spotlights, and use Facebook lead and retargeting ads to bring in enquiries while SEO builds.
+5. Build an active Facebook presence with truck photos, route updates and client spotlights, and add Google or Meta ads later if faster results are wanted.
 
 We can't guarantee rankings or lead volume. What we can say is that the issues blocking performance today are concrete and verifiable, and they can be fixed quickly.
 
@@ -97,9 +97,9 @@ We can't guarantee rankings or lead volume. What we can say is that the issues b
 5. **Optimise Google Business Profile fully and run a review program.** For local "near me" and Maps visibility, this is the highest-leverage channel.
 6. **Build event-specific landing pages for recurring DFW events,** such as AT&T Stadium game days, the State Fair of Texas and American Airlines Center concerts. Promote them ahead of each season.
 7. **Build industry landing pages where MOD Media already has proof,** such as bail bonds and legal, home services, restaurants and bars, and real estate.
-8. **Run Facebook lead ads to DFW business owners** with a "Free Route Plan & Quote" offer. Facebook's local targeting produces enquiries in weeks while SEO takes months.
+8. **Optional: run Facebook lead ads to DFW business owners** with a "Free Route Plan & Quote" offer. Facebook's local targeting produces enquiries in weeks while SEO takes months.
 9. **Turn every route into Facebook posts.** LED trucks are inherently visual, so photos of trucks in Deep Ellum, Uptown and outside AT&T Stadium make strong organic posts and ad creative.
-10. **Retarget on Facebook** everyone who visits the pricing or quote pages. Advertising buyers rarely convert on the first visit.
+10. **Optional: retarget on Facebook** everyone who visits the pricing or quote pages. Advertising buyers rarely convert on the first visit.
 
 ## 4. SEO scorecard
 
@@ -174,10 +174,10 @@ The detailed, copy-ready page-by-page plan is in Section 13. The ten most import
 ## 8. Facebook strategy (summary)
 
 - **Why Facebook:** DFW small-business owners, restaurant and bar owners, real estate agents and event promoters are active on Facebook, and Facebook ads can target them by location, interests and job role. It's also where local business owners check a company's reviews and recent activity before calling.
-- **Posting rhythm (Growth package):** 4–5 posts per week (truck photos, carousels and designed graphics), with photo Stories on route nights.
+- **Posting rhythm:** 4–5 posts per week (truck photos, carousels and designed graphics), with photo Stories on route nights.
 - **Community:** share route updates and client spotlights in relevant local Facebook groups where the group rules allow it, and reply to every comment and message within business hours.
 - **Photos:** every route night and event is a photo opportunity. Photograph the truck in front of recognisable DFW landmarks with the client's ad on screen (with the client's permission). The client or drivers take the photos on a phone, and posts are designed from them in Canva.
-- **Paid:** Facebook Lead Ads (instant form) for a "Free Route Plan + Quote" offer, plus retargeting of website visitors and Page engagers. Details are in Section 15.
+- **Paid (optional add-on):** Facebook Lead Ads (instant form) for a "Free Route Plan + Quote" offer, plus retargeting of website visitors and Page engagers. Details are in Section 15.
 
 ## 9. Lead generation strategy (how the pieces work together)
 
@@ -221,26 +221,19 @@ Full task tables are in Section 20.
 | Monthly (paid) | Facebook ad creative and audience tests; landing-page A/B test |
 | Quarterly | Content refresh of the top 10 pages; competitor SERP review; budget re-allocation by cost per qualified lead |
 
-## 12. Investment options
+## 12. Investment
 
-These are indicative only. They assume the client supplies truck and campaign photos taken on a phone. Every package includes a rebuild of modmediadfw.com in a new, modern layout, at no change to the fees below. **Facebook ad spend is paid directly to Meta and is separate from service fees.** We can't guarantee rankings, leads or ad performance.
+Simple monthly pricing: one core service plus two optional add-ons. There are no setup fees, and the new modern website design is included in the Website & SEO service.
 
-| | **Essential** | **Growth** | **Aggressive Growth** |
-|---|---|---|---|
-| Goal | Fix the website and Google Business Profile so existing traffic converts | Steady organic and local growth plus an active Facebook presence | Fastest lead flow: website, GBP and Facebook ads together |
-| One-time setup (onboarding month) | $1,500–$2,500 (technical fixes, tracking, page rebuild of the 4 service pages + homepage) | Included in month 1, or $1,500 | Included in month 1, or $2,000 |
-| Website SEO / month | New modern website layout (included), on-page optimisation of 2–3 pages, technical monitoring | Everything in Essential + 2 new pages or articles, internal linking, 4–6 local citations and links, quarterly content refresh | Everything in Growth + 4 new pages or articles, event and industry landing pages, digital PR and partnerships outreach |
-| Google Business Profile | Weekly posts, photo uploads, Q&A, review program | Same + review response management | Same + monthly GBP performance review |
-| Facebook content | None (or 2 posts a week using client photos) | 12–16 posts/month (photos, carousels and designed graphics) | 20–24 posts/month (photos, carousels and designed graphics), monthly content calendar, community management |
-| Facebook advertising | None | Retargeting only | Lead ads + retargeting + seasonal event pushes, monthly creative testing |
-| Reporting | Monthly dashboard | Monthly dashboard + call | Bi-weekly check-in + monthly strategy review |
-| **Indicative service fee** | **$1,000–$1,800 / month** | **$1,800–$3,000 / month** | **$3,000–$4,800 / month** |
-| **Suggested Facebook ad budget (separate)** | $0 | $300–$600 / month | $1,000–$2,000 / month |
+| Service | What's included | Monthly fee |
+|---|---|---|
+| **Website & SEO** (core) | New modern website design (included), on-page SEO (titles, headings, content, schema), off-page SEO (local citations, links, directories), site speed optimisation, new articles and landing pages every month, technical fixes, tracking and a monthly SEO report | **$699** |
+| **Facebook** (add-on) | Facebook Page set-up and optimisation, regular posts (truck photos, route updates, client spotlights), designed graphics in MOD Media branding, monthly content calendar | **$199** |
+| **Google Business Profile** (add-on) | Profile clean-up (pin, categories, services, photos), weekly Google posts, review request program and review replies, Q&A and photo updates | **$149** |
+| **All three together** | Recommended: the website, Google Maps and Facebook reinforce each other | **$1,047** |
+| **Optional: Google Ads / Meta Ads management** | Campaign set-up, targeting, creative and monthly optimisation | Quoted separately. Ad budget is paid directly to Google or Meta |
 
-**Pricing assumptions:**
-- Rates reflect typical US small-agency or freelance retainer ranges in 2025–26.
-- Facebook ad budgets are sized to give the ad system enough data to learn within 4–6 weeks.
-- One booked exclusive campaign can be worth more than the monthly fee, but break-even depends on the client's own close rate and margins, which will be calibrated once the first campaigns run.
+**Billing:** monthly, at the start of each month, with a 3-month minimum so the SEO work has time to show results, then month to month. We can't guarantee rankings, leads or ad performance.
 
 ---
 
@@ -896,7 +889,7 @@ SMB owners within ~25 mi of Dallas; restaurant and bar owners (Deep Ellum, Uptow
 9. **Grand opening post:** truck parked outside a real client's opening (only if real). Caption: "Opening a business in Dallas? Make day one loud. Request a custom route."
 10. **Owner Q&A post:** photo of Jamie with the truck. Caption: "Do billboard trucks actually work? Ask us anything in the comments and we'll give you an honest answer."
 
-### Facebook advertising
+### Facebook advertising (optional add-on)
 
 | Order | Campaign | Objective | Audience | Creative | Indicative budget |
 |---|---|---|---|---|---|
@@ -1157,7 +1150,7 @@ Fix the trust breakers and tracking in week one. Rebuild the homepage and four s
 - **Google Business Profile** captures people already searching on Google Maps, starting now.
 - **Website SEO** builds visibility for buyer searches over months, and gives every visitor a clear way to request a quote.
 - **Facebook posts** make MOD Media familiar to local business owners and supply proof for the website and ads.
-- **Facebook lead ads** generate enquiries while SEO builds, and **Facebook retargeting** brings back website visitors who didn't enquire the first time.
+- **Optional Google or Meta ads** can generate enquiries faster while SEO builds, and retargeting brings back website visitors who didn't enquire the first time.
 - **Every finished campaign** produces a review, a case study and new content, which feeds the loop again.
 
 ## 22. The 10 highest-priority actions (ranked by impact and urgency)
@@ -1169,7 +1162,7 @@ Fix the trust breakers and tracking in week one. Rebuild the homepage and four s
 5. **Add keyword-led H1s, titles and meta descriptions** to every page, and set the site name to "MOD Media". *(Week 1–2)*
 6. **Publish a Mobile Billboard Pricing page** with honest "starting at" ranges, and fill the empty pricing section. *(Week 2–4)*
 7. **Rebuild the homepage and the four core service pages** with real truck photos and video, route schedules, how-it-works, FAQs and proof. Merge the duplicate nightlife pages. *(Week 2–5)*
-8. **Launch Facebook lead and retargeting ads** (DFW business owners, "Free Route Plan" offer) once the Meta Pixel and landing pages are fixed. *(Week 3–4)*
+8. **Optional: launch Facebook lead and retargeting ads** (DFW business owners, "Free Route Plan" offer) once the Meta Pixel and landing pages are fixed. *(Week 3–4)*
 9. **Clean up the site:** delete the spam hello-world post, disable the author and category archives, compress the 21 MB video and 1 MB PNGs, and rewrite the city pages to remove wrong-city boilerplate. *(Week 1–6)*
 10. **Start the review and content engine:** review requests after every campaign, 4–5 Facebook posts a week, and one case study a month, amplified with Facebook retargeting. *(Week 3 onward)*
 
