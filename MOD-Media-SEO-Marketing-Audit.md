@@ -47,7 +47,7 @@ MOD Media has a real, differentiated product. It runs scheduled shared routes (D
 **Recommended approach, in order:**
 1. Fix the trust breakers first (Lorem Ipsum, the dead phone link, the spam blog post, the exposed author archive).
 2. Install measurement.
-3. Rebuild the page structure around buyer searches.
+3. Rebuild the website in a new, modern layout, structured around buyer searches.
 4. Fully optimise Google Business Profile and start a steady review program.
 5. Build an active Facebook presence with truck photos, route updates and client spotlights, and use Facebook lead and retargeting ads to bring in enquiries while SEO builds.
 
@@ -223,13 +223,13 @@ Full task tables are in Section 20.
 
 ## 12. Investment options
 
-These are indicative only. They assume the client supplies truck and campaign photos taken on a phone. **Facebook ad spend is paid directly to Meta and is separate from service fees.** We can't guarantee rankings, leads or ad performance.
+These are indicative only. They assume the client supplies truck and campaign photos taken on a phone. Every package includes a rebuild of modmediadfw.com in a new, modern layout, at no change to the fees below. **Facebook ad spend is paid directly to Meta and is separate from service fees.** We can't guarantee rankings, leads or ad performance.
 
 | | **Essential** | **Growth** | **Aggressive Growth** |
 |---|---|---|---|
 | Goal | Fix the website and Google Business Profile so existing traffic converts | Steady organic and local growth plus an active Facebook presence | Fastest lead flow: website, GBP and Facebook ads together |
 | One-time setup (onboarding month) | $1,500–$2,500 (technical fixes, tracking, page rebuild of the 4 service pages + homepage) | Included in month 1, or $1,500 | Included in month 1, or $2,000 |
-| Website SEO / month | On-page optimisation of 2–3 pages, technical monitoring | Everything in Essential + 2 new pages or articles, internal linking, 4–6 local citations and links, quarterly content refresh | Everything in Growth + 4 new pages or articles, event and industry landing pages, digital PR and partnerships outreach |
+| Website SEO / month | New modern website layout (included), on-page optimisation of 2–3 pages, technical monitoring | Everything in Essential + 2 new pages or articles, internal linking, 4–6 local citations and links, quarterly content refresh | Everything in Growth + 4 new pages or articles, event and industry landing pages, digital PR and partnerships outreach |
 | Google Business Profile | Weekly posts, photo uploads, Q&A, review program | Same + review response management | Same + monthly GBP performance review |
 | Facebook content | None (or 2 posts a week using client photos) | 12–16 posts/month (photos, carousels and designed graphics) | 20–24 posts/month (photos, carousels and designed graphics), monthly content calendar, community management |
 | Facebook advertising | None | Retargeting only | Lead ads + retargeting + seasonal event pushes, monthly creative testing |
