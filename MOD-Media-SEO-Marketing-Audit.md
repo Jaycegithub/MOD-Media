@@ -49,8 +49,7 @@ MOD Media has a real, differentiated product. It runs scheduled shared routes (D
 2. Install measurement.
 3. Rebuild the page structure around buyer searches.
 4. Fully optimise Google Business Profile and start a steady review program.
-5. Run a tightly targeted Google Search campaign to generate leads while SEO builds.
-6. Use short-form video of the trucks on Instagram, Facebook and TikTok, plus Meta retargeting, to stay in front of the people who visited.
+5. Build an active Facebook presence with truck videos and route updates, and use Facebook lead and retargeting ads to bring in enquiries while SEO builds.
 
 We can't guarantee rankings or lead volume. What we can say is that the issues blocking performance today are concrete and verifiable, and they can be fixed quickly.
 
@@ -98,9 +97,9 @@ We can't guarantee rankings or lead volume. What we can say is that the issues b
 5. **Optimise Google Business Profile fully and run a review program.** For local "near me" and Maps visibility, this is the highest-leverage channel.
 6. **Build event-specific landing pages for recurring DFW events,** such as AT&T Stadium game days, the State Fair of Texas and American Airlines Center concerts. Promote them ahead of each season.
 7. **Build industry landing pages where MOD Media already has proof,** such as bail bonds and legal, home services, restaurants and bars, and real estate.
-8. **Run a Google Search Ads campaign on exact high-intent terms** with call tracking. It produces leads in weeks while SEO takes months.
-9. **Run a short-form video engine.** LED trucks are inherently visual, so Reels, TikTok and Shorts of trucks in Deep Ellum, Uptown and outside AT&T Stadium make strong organic and ad creative.
-10. **Retarget on Meta and Google** everyone who visits the pricing or quote pages. Advertising buyers rarely convert on the first visit.
+8. **Run Facebook lead ads to DFW business owners** with a "Free Route Plan & Quote" offer. Facebook's local targeting produces enquiries in weeks while SEO takes months.
+9. **Turn every route into Facebook video.** LED trucks are inherently visual, so Facebook Reels of trucks in Deep Ellum, Uptown and outside AT&T Stadium make strong organic posts and ad creative.
+10. **Retarget on Facebook** everyone who visits the pricing or quote pages. Advertising buyers rarely convert on the first visit.
 
 ## 4. SEO scorecard
 
@@ -115,7 +114,7 @@ The scores are rubric-based. Each category starts at 100 and loses points for ve
 | Keyword Targeting | **25 / 100** | Titles target loose variations ("Digital Advertising Truck: Effective Advertising Solution") instead of the phrases buyers use. Two nightlife pages compete with each other. There's no pricing, industry or event page, and no clear page for "Fort Worth" or "Plano" (Plano only appears inside the North Dallas copy). |
 | Website Conversion | **32 / 100** | Click-to-call is present in the header and many sections, which is good. But there's a broken placeholder tel link on four pages, a minimal quote form, a homepage form that only collects newsletter emails, no prices, no visible "how it works", no truck specs and no case studies. |
 | Authority & Brand Footprint | **20 / 100** | A search for the domain and brand name returned no third-party mentions, press coverage or directory listings, while competitors appear on directories, trade publications and marketplaces. Few external signals currently vouch for the business. |
-| Social Media Readiness | **30 / 100** | The schema lists only Facebook and Instagram, and the footer social icons are dead links. Only two platforms are connected to the website. The product itself is ideal for video. |
+| Facebook Readiness | **30 / 100** | The footer Facebook icon is a dead link, the Page isn't connected to the website through tracking (no Meta Pixel), and nothing on the site invites visitors to follow or message the Page. The product itself is ideal for video. |
 | Analytics & Tracking | **10 / 100** | No GA4, GTM or Meta Pixel in the site code, and no call tracking, so lead sources can't currently be attributed. |
 
 ## 5. Competitor comparison (summary)
@@ -169,21 +168,21 @@ The detailed, copy-ready page-by-page plan is in Section 13. The ten most import
 6. **Rebuild `/free-quote/`**: title it "Get a Free Mobile Billboard Quote", add phone, company, city, dates, service and budget-range fields, and add a "What happens next" step list.
 7. **Noindex or delete** the hello-world post, the author archive and the category archive. Delete the spam comments and turn comments off.
 8. **Host the analytics PDF on modmediadfw.com,** or better, turn it into an HTML "Campaign Reporting" page.
-9. **Fix the footer social links** and the Organization `sameAs` list.
+9. **Link the footer Facebook icon to the Page**, remove unused social icons, and fix the Organization `sameAs` list.
 10. **Add LocalBusiness and Service schema** (Section 11).
 
-## 8. Social media strategy (summary)
+## 8. Facebook strategy (summary)
 
-- **Primary platforms:** Instagram and Facebook (Meta), for local SMB owners, restaurants, bars, real estate agents and event promoters. They also give paid targeting by radius and interests.
-- **Secondary:** TikTok and YouTube Shorts for organic reach of truck videos (the same content, repurposed), plus LinkedIn for corporate event planners, marketing managers and agencies.
-- **Posting rhythm (Growth package):** 4 Reels or short videos plus 3 static or carousel posts per week on Instagram and Facebook. Repost the videos to TikTok and Shorts. LinkedIn 2×/week. Daily Stories on route nights.
+- **Why Facebook:** DFW small-business owners, restaurant and bar owners, real estate agents and event promoters are active on Facebook, and Facebook ads can target them by location, interests and job role. It's also where local business owners check a company's reviews and recent activity before calling.
+- **Posting rhythm (Growth package):** 3–4 short videos (Facebook Reels) plus 2–3 photo or carousel posts per week, with Facebook Stories on route nights.
+- **Community:** share route updates and client spotlights in relevant local Facebook groups where the group rules allow it, and reply to every comment and message within business hours.
 - **Video:** every route night and event is a content shoot. Put the truck in front of recognisable DFW landmarks and get the client's ad in shot, with the client's permission.
-- **Paid:** Meta Lead Ads (instant form) for a "Free Route Plan + Quote" offer, plus retargeting of site visitors and video viewers. Details are in Section 14.
+- **Paid:** Facebook Lead Ads (instant form) for a "Free Route Plan + Quote" offer, plus retargeting of website visitors and video viewers. Details are in Section 15.
 
 ## 9. Lead generation strategy (how the pieces work together)
 
 ```
-SEARCH INTENT (Google organic + Google Ads + GBP/Maps)
+SEARCH INTENT (Google organic + Google Business Profile/Maps)
    "mobile billboard Dallas", "LED truck rental", "billboard truck cost"
         │
         ▼
@@ -193,23 +192,23 @@ FOCUSED LANDING PAGE (service / city / pricing / event)
         │                                   │
         │  (didn't convert)                 ▼
         ▼                           LEAD (tracked: form, call, text, email)
-RETARGETING (Meta + Google)                 │
-   truck-in-action Reels, case studies,     ▼
+RETARGETING (Facebook ads)                  │
+   truck-in-action videos, case studies,    ▼
    "Fill the Friday-night route" offers   FAST FOLLOW-UP (<15 min, route map + quote)
         │                                   │
         ▼                                   ▼
-SOCIAL (organic Reels/TikTok) builds    CUSTOMER → photo/video of their ad
+FACEBOOK (organic videos) builds        CUSTOMER → photo/video of their ad
    familiarity & brand search  ◄──────── → Google review → case study → new content
 ```
 
-Every booked campaign should feed the system back: a photo or video for social, a Google review request, and a case study once results are known.
+Every booked campaign should feed the system back: a photo or video for Facebook, a Google review request, and a case study once results are known.
 
 ## 10. 90-day action plan (summary)
 
-Full task tables are in Section 17.
+Full task tables are in Section 20.
 - **Days 1–7:** Fix the placeholders, phone link, spam and junk pages. Install GA4, GTM, Search Console and call tracking. Claim and audit GBP.
-- **Days 8–30:** New titles, H1s and descriptions, consolidate pages, rebuild the homepage and quote form, build the pricing page, add schema, compress media, optimise GBP, set up social profiles, launch Google Search Ads.
-- **Days 31–60:** Industry and event pages, the first 4–6 priority articles, first case studies, review program, a steady weekly video cadence, Meta lead and retargeting campaigns, local link building.
+- **Days 8–30:** New titles, H1s and descriptions, consolidate pages, rebuild the homepage and quote form, build the pricing page, add schema, compress media, optimise GBP, set up the Facebook Page and Meta Pixel.
+- **Days 31–60:** Industry and event pages, the first 4–6 priority articles, first case studies, review program, a steady weekly Facebook video cadence, Facebook lead and retargeting campaigns, local link building.
 - **Days 61–90:** Expand the pages that are winning, fix the ones that aren't, add a Fort Worth page if operations support it, PR and partnerships, ad optimisation, and the first quarterly report.
 
 ## 11. Recommended monthly marketing rhythm
@@ -217,30 +216,31 @@ Full task tables are in Section 17.
 | Every month | Activity |
 |---|---|
 | Week 1 | Report on leads by channel, Search Console queries and GBP insights. Agree next month's priority pages and events |
-| Weekly | GBP post (route schedule, event, client spotlight); 3–4 short videos; review requests to every completed campaign |
+| Weekly | GBP post (route schedule, event, client spotlight); 3–4 Facebook videos; review requests to every completed campaign |
 | Monthly | 2 high-intent articles or landing pages; 1 case study; refresh the event calendar page; 2–4 earned link or PR outreach pushes |
-| Monthly (paid) | Search-term mining and negatives; ad copy and creative tests; landing-page A/B test |
+| Monthly (paid) | Facebook ad creative and audience tests; landing-page A/B test |
 | Quarterly | Content refresh of the top 10 pages; competitor SERP review; budget re-allocation by cost per qualified lead |
 
 ## 12. Investment options
 
-These are indicative only. They depend on agency rates, the client's production capacity, and whether the client supplies photo and video footage. **Ad spend is paid directly to Google or Meta and is separate from service fees.** We can't guarantee rankings, leads or ad performance.
+These are indicative only. They depend on the client's production capacity and whether the client supplies photo and video footage. **Facebook ad spend is paid directly to Meta and is separate from service fees.** We can't guarantee rankings, leads or ad performance.
 
 | | **Essential** | **Growth** | **Aggressive Growth** |
 |---|---|---|---|
-| Goal | Fix the foundation and convert existing traffic | Steady organic and local growth plus brand presence | Fastest lead flow: SEO, social and paid together |
-| One-time setup (onboarding month) | $1,500–$2,500 (technical fixes, tracking, page rebuild of the 4 service pages + homepage) | Included in month 1, or $1,500 | Included in month 1, or $2,500 |
-| SEO work / month | On-page optimisation of 2–3 pages, technical monitoring, GBP management (weekly posts, Q&A, photo uploads), review program | Everything in Essential + 2 new pages or articles, internal linking, 4–6 local citations and links, quarterly content refresh | Everything in Growth + 4 new pages or articles, digital PR and partnerships outreach, event landing pages |
-| Social content | None (or 2 posts a week using client footage) | 12–16 posts/month (8 short videos) on IG/FB, reposted to TikTok and Shorts; LinkedIn 8/month | 20–24 posts/month (12+ short videos), monthly on-site shoot, community management |
-| Advertising management | None | Meta retargeting only | Google Search + Meta prospecting, lead ads and retargeting, monthly creative testing |
+| Goal | Fix the website and Google Business Profile so existing traffic converts | Steady organic and local growth plus an active Facebook presence | Fastest lead flow: website, GBP and Facebook ads together |
+| One-time setup (onboarding month) | $1,500–$2,500 (technical fixes, tracking, page rebuild of the 4 service pages + homepage) | Included in month 1, or $1,500 | Included in month 1, or $2,000 |
+| Website SEO / month | On-page optimisation of 2–3 pages, technical monitoring | Everything in Essential + 2 new pages or articles, internal linking, 4–6 local citations and links, quarterly content refresh | Everything in Growth + 4 new pages or articles, event and industry landing pages, digital PR and partnerships outreach |
+| Google Business Profile | Weekly posts, photo uploads, Q&A, review program | Same + review response management | Same + monthly GBP performance review |
+| Facebook content | None (or 2 posts a week using client footage) | 12–16 posts/month, including 8 short videos | 20–24 posts/month, including 12+ short videos, monthly on-site shoot, community management |
+| Facebook advertising | None | Retargeting only | Lead ads + retargeting + seasonal event pushes, monthly creative testing |
 | Reporting | Monthly dashboard | Monthly dashboard + call | Bi-weekly check-in + monthly strategy review |
-| **Indicative service fee** | **$1,200–$2,000 / month** | **$2,800–$4,500 / month** | **$5,000–$8,000 / month** |
-| **Suggested ad budget (separate)** | $0 (optional $500 Google Search) | $300–$600 Meta | $1,500–$3,000 Google + $800–$1,500 Meta |
+| **Indicative service fee** | **$1,000–$1,800 / month** | **$2,000–$3,200 / month** | **$3,500–$5,500 / month** |
+| **Suggested Facebook ad budget (separate)** | $0 | $300–$600 / month | $1,000–$2,000 / month |
 
 **Pricing assumptions:**
 - Rates reflect typical US small-agency or freelance retainer ranges in 2025–26.
-- The lower end assumes the client supplies raw truck footage from phones, and the upper end assumes on-site filming by the agency.
-- Ad budgets are sized to generate enough clicks for learning. *Example:* if Dallas CPCs come in at $5–$10, which is an **unverified assumption** to be confirmed in Keyword Planner, $1,500/month buys roughly 150–300 clicks.
+- The lower end assumes the client supplies raw truck footage from phones, and the upper end assumes on-site filming.
+- Facebook ad budgets are sized to give the ad system enough data to learn within 4–6 weeks.
 - One booked exclusive campaign can be worth more than the monthly fee, but break-even depends on the client's own close rate and margins, which will be calibrated once the first campaigns run.
 
 ---
@@ -296,7 +296,7 @@ Data is from raw HTML. "Words" counts the visible body text, including the share
 | Hello-world post | Spam comments with outbound links | Spam signal | Delete the post and comments; Settings → Discussion → disable comments | **High** | Low–Medium (risk reduction) |
 | Author and category archives | Indexed; author archive exposes login | Security and thin pages | Yoast → Search Appearance → Archives: disable the author archive and set categories to noindex; change the admin display name | **High** | Security |
 | Homepage + `/services/` | PDF on `judy.onlinedigitalprojects.com` | Off-domain dependency | Upload to the Media Library or build an HTML reporting page | Medium | Low–Medium |
-| Footer | Social icons without `href` | Dead clicks | Add real profile URLs; remove platforms not in use (e.g. Twitter/X, YouTube if inactive) | Medium | Low |
+| Footer | Social icons without `href` | Dead clicks | Link the Facebook icon to the Page; remove the icons for platforms not in use | Medium | Low |
 | All images | Missing alt text; generic file names | Image SEO and accessibility | Rename on upload (`mod-media-led-billboard-truck-deep-ellum.webp`) and write descriptive alt text | Medium | Low–Medium |
 
 ## 12b. Phase 2 — Technical SEO audit
@@ -797,7 +797,7 @@ Each article must include real MOD photos, a "Get a quote" block and links to tw
 11. **Service area:** DFW city list + "Exclusive rentals in Austin, Houston, San Antonio"
 12. **FAQ:** 6 questions
 13. **Final CTA band:** "Get your free route plan in one business day" + inline form step 1
-14. **Footer:** NAP (consistent), working social links, short links to all routes
+14. **Footer:** NAP (consistent), a working Facebook link, short links to all routes
 
 ### CTA library (use consistently)
 - **Get a Free Route Plan & Quote** (primary)
@@ -809,17 +809,25 @@ Each article must include real MOD photos, a "Get a quote" block and links to tw
 
 **Claims to avoid unless substantiated:** "DFW's #1", specific impression counts without a stated method, partner logos without permission, and guaranteed results.
 
-## 15. Phase 9 — Social media marketing strategy
+## 15. Phase 9 — Facebook marketing strategy
 
-### Platform priority
+### Why Facebook is the social channel
+| Strength | Why it matters for MOD Media |
+|---|---|
+| Local business owners use it daily | The buyers (restaurant and bar owners, contractors, agents, retailers) check Facebook for local businesses and recommendations |
+| Precise local ad targeting | Ads can reach a radius around Dallas, Frisco, Plano and Rockwall, by interests such as small business ownership, restaurants or real estate |
+| Lead Ads | Prospects can request a quote without leaving Facebook, with name, phone and business pre-filled |
+| Retargeting | The Meta Pixel lets MOD Media show ads to people who visited the pricing or quote pages |
+| Reviews and Messenger | Recommendations and quick replies build trust before the first call |
 
-| Platform | Role | Priority | Why |
-|---|---|---|---|
-| **Instagram** | Visual proof, Reels, local discovery, DMs | ★★★ | SMB owners, restaurants, bars and real estate agents live here; trucks film well |
-| **Facebook** | Local community, groups, reviews, Lead Ads, retargeting | ★★★ | Older SMB owners; the best paid local targeting; it shares Meta's ad system with Instagram |
-| **TikTok** | Organic reach of truck videos, "Dallas" content discovery | ★★ | Cheap reach and strong brand recall. Leads are indirect |
-| **YouTube (Shorts + a few long videos)** | Searchable video library, VideoObject for SEO | ★★ | Shorts reuse the same content; long-form "ride-along" or "how it works" videos support the website |
-| **LinkedIn** | Corporate event planners, marketing managers, agencies, recruiters | ★★ | Lower volume, but larger deal sizes (exclusive rentals, multi-city) |
+### Facebook Page set-up checklist
+- Use the same business name ("MOD Media"), phone, address/service area and website as the website and Google Business Profile.
+- Category: Advertising/Marketing (or the closest available), with a description that mirrors the GBP description.
+- Cover video: a 10–20 s clip of a truck at night in Deep Ellum or Uptown.
+- "Get Quote" or "Send Message" as the main button, with Messenger auto-replies for common questions (price, routes, availability).
+- Turn on Recommendations (reviews).
+- Pin a post with this week's route schedule.
+- Connect the Page to Meta Business Suite and install the Meta Pixel on the website.
 
 ### Audiences
 SMB owners within ~25 mi of Dallas; restaurant and bar owners (Deep Ellum, Uptown, Lower Greenville, Frisco); event and concert promoters; real estate agents, builders and brokerages; car dealerships; retail and franchise owners; home service companies; legal and bail bond firms (already proven); marketing managers and agencies; corporate event planners; brands launching products; political campaigns (seasonal).
@@ -827,55 +835,55 @@ SMB owners within ~25 mi of Dallas; restaurant and bar owners (Deep Ellum, Uptow
 ### Content pillars
 1. LED truck demos · 2. Behind the scenes · 3. Route of the week · 4. Client spotlights and success stories · 5. Before/after (design concept → on the truck) · 6. Event coverage · 7. Local advertising tips · 8. Education (cost, effectiveness, design) · 9. Testimonials · 10. Offers and availability ("2 spots left on Saturday's nightlife route")
 
-### 30 content ideas
+### 30 Facebook content ideas
 
-| # | Topic | Platform | Format | Hook / caption | CTA | Audience |
-|---|---|---|---|---|---|---|
-| 1 | Truck lights up in Deep Ellum | IG/FB/TikTok | Reel | "This is what 9 pm Saturday in Deep Ellum looks like for our clients 👀" | DM "ROUTE" for availability | Bars, restaurants |
-| 2 | How a shared route works | IG/FB | Carousel | "How 5 local businesses share one LED truck (and the cost)" | Link in bio → pricing | SMBs |
-| 3 | Day in the life of a MOD driver | TikTok/Shorts | Vlog | "6 hours, 3 cities, 1 truck" | Follow for routes | General |
-| 4 | Client spotlight: Atlas Bail Bonds (with permission) | IG/FB/LinkedIn | Video testimonial | "A year on the road with Atlas Bail Bonds" | Get a quote | Legal/services |
-| 5 | Cowboys game-day route | IG/TikTok | Reel | "80,000 fans. One LED truck. Here's where we parked." (verify attendance claims) | Book event route | Bars, local brands |
-| 6 | Design before/after | IG | Carousel | "Your flyer vs. your flyer on a 12-ft LED screen" | Free design consult | SMBs |
-| 7 | Price myth-buster | IG/FB/TikTok | Talking head | "No, a billboard truck doesn't cost $10K a day. Here's real pricing." | Link → pricing page | SMBs |
-| 8 | Frisco billboard rules | IG/LinkedIn | Reel + caption | "Frisco limits roadside billboards. Here's how Frisco brands still get seen." | DM "FRISCO" | Frisco businesses |
-| 9 | Route of the week map | IG Stories/FB | Story/static | "This week's route: Legacy West → The Star → Frisco Square" | Reply to book | Local SMBs |
-| 10 | Spots-left alert | IG/FB Stories | Story | "2 spots left on Saturday's nightlife route" | Tap to message | Bars |
-| 11 | 3 mistakes in billboard ads | TikTok/IG | Reel | "Stop putting your whole menu on a billboard" | Save + follow | All |
-| 12 | Grand opening plan | IG/FB | Carousel | "30-day grand opening plan for Dallas businesses" | Download / quote | New businesses |
-| 13 | Night vs day visibility | TikTok/Shorts | Split-screen | "Same ad. Noon vs midnight." | Comment "NIGHT" | All |
-| 14 | Client reaction | IG/TikTok | Reel | "We surprised a client with their ad driving past their store" | Book yours | SMBs |
-| 15 | QR code in action | IG | Reel | "Someone scanned this from a red light. Here's what happened." (show real data only) | Get a quote | Marketers |
-| 16 | Real estate open house | IG/FB/LinkedIn | Reel | "Open house this Sunday? Make the whole neighborhood know." | Real estate page | Agents |
-| 17 | Holiday campaign (home services) | FB/IG | Testimonial clip | "Christmas-light company: 'my phone was ringing off the hook'" (client's own words) | Book Q4 now | Home services |
-| 18 | Behind the screen tech | YouTube Shorts/TikTok | Explainer | "What's inside a mobile LED billboard?" | Follow | Curious/general |
-| 19 | State Fair route preview | IG/FB | Reel | "Fair Park crowds start in 30 days. Your ad could be there." | Book event | Local brands |
-| 20 | Recruiting campaign | LinkedIn/FB | Static + video | "Hiring drivers? Put the job on wheels." | Exclusive rental page | Employers |
-| 21 | Ask MOD Anything | IG Stories | Q&A | "Ask us anything about mobile billboards" | DM | All |
-| 22 | Owner story | IG/FB/LinkedIn | Talking head | "Why our family started a billboard truck company in 2022" | Follow | All (trust) |
-| 23 | Shared vs exclusive | IG/LinkedIn | Carousel | "Shared route or your own truck? Here's how to choose." | Quote | SMBs, marketers |
-| 24 | Rockwall local love | FB | Photo + community post | "Proud to drive Rockwall County every week. Shout-out to our local clients." | Tag a local business | Rockwall SMBs |
-| 25 | Concert night | TikTok/IG | Reel | "Outside American Airlines Center before the show" | Event route | Promoters |
-| 26 | Stat explainer | LinkedIn | Document post | "How mobile billboard impressions are actually measured" | Read blog | Marketing managers |
-| 27 | Client ad countdown | IG Stories | Story sequence | "Your ad goes live in 3…2…1" | Book | SMBs |
-| 28 | Political season | FB/LinkedIn | Static (compliant) | "Campaign season: reach every precinct you need" | Political page | Campaigns |
-| 29 | Monthly highlight reel | All | Montage | "Every ad we ran in [Month]" | Get on next month's reel | All |
-| 30 | Offer post | FB/IG | Static + Reel | "New clients: free ad design on your first route" (if offered) | Claim offer (Lead Ad) | SMBs |
+| # | Topic | Format | Hook / caption | CTA | Audience |
+|---|---|---|---|---|---|
+| 1 | Truck lights up in Deep Ellum | Reel | "This is what 9 pm Saturday in Deep Ellum looks like for our clients 👀" | Message "ROUTE" for availability | Bars, restaurants |
+| 2 | How a shared route works | Carousel | "How 5 local businesses share one LED truck (and the cost)" | Link → pricing page | SMBs |
+| 3 | Day in the life of a MOD driver | Reel | "6 hours, 3 cities, 1 truck" | Follow for routes | General |
+| 4 | Client spotlight: Atlas Bail Bonds (with permission) | Video testimonial | "A year on the road with Atlas Bail Bonds" | Get a quote | Legal/services |
+| 5 | Cowboys game-day route | Reel | "Game day. One LED truck. Here's where we drove." | Book event route | Bars, local brands |
+| 6 | Design before/after | Carousel | "Your flyer vs. your flyer on a 12-ft LED screen" (verify the size) | Free design consult | SMBs |
+| 7 | Price myth-buster | Talking-head video | "No, a billboard truck doesn't cost $10K a day. Here's real pricing." | Link → pricing page | SMBs |
+| 8 | Frisco billboard rules | Reel + caption | "Frisco limits roadside billboards. Here's how Frisco brands still get seen." | Message "FRISCO" | Frisco businesses |
+| 9 | Route of the week map | Photo post + Story | "This week's route: Legacy West → The Star → Frisco Square" | Message to book | Local SMBs |
+| 10 | Spots-left alert | Story | "2 spots left on Saturday's nightlife route" | Tap to message | Bars |
+| 11 | 3 mistakes in billboard ads | Reel | "Stop putting your whole menu on a billboard" | Save + follow | All |
+| 12 | Grand opening plan | Carousel | "30-day grand opening plan for Dallas businesses" | Get a quote | New businesses |
+| 13 | Night vs day visibility | Split-screen Reel | "Same ad. Noon vs midnight." | Comment "NIGHT" | All |
+| 14 | Client reaction | Reel | "We surprised a client with their ad driving past their store" | Book yours | SMBs |
+| 15 | QR code in action | Reel | "Someone scanned this from a red light. Here's what happened." (real data only) | Get a quote | Marketers |
+| 16 | Real estate open house | Reel | "Open house this Sunday? Make the whole neighborhood know." | Real estate page | Agents |
+| 17 | Holiday campaign (home services) | Testimonial clip | "Christmas-light company: 'my phone was ringing off the hook'" (client's own words) | Book Q4 now | Home services |
+| 18 | Behind the screen tech | Explainer video | "What's inside a mobile LED billboard?" | Follow | General |
+| 19 | State Fair route preview | Reel | "Fair Park crowds start in 30 days. Your ad could be there." | Book event | Local brands |
+| 20 | Recruiting campaign | Photo + video | "Hiring drivers? Put the job on wheels." | Exclusive rental page | Employers |
+| 21 | Ask MOD Anything | Facebook Live or Q&A post | "Ask us anything about mobile billboards" | Comment or message | All |
+| 22 | Owner story | Talking-head video | "Why our family started a billboard truck company in 2022" | Follow | All (trust) |
+| 23 | Shared vs exclusive | Carousel | "Shared route or your own truck? Here's how to choose." | Get a quote | SMBs, marketers |
+| 24 | Rockwall local love | Photo + community post | "Proud to drive Rockwall County every week. Shout-out to our local clients." | Tag a local business | Rockwall SMBs |
+| 25 | Concert night | Reel | "Outside American Airlines Center before the show" | Event route | Promoters |
+| 26 | Impressions explained | Text + graphic post | "How mobile billboard impressions are actually measured" | Read the article | Marketing managers |
+| 27 | Client ad countdown | Story sequence | "Your ad goes live in 3…2…1" | Book | SMBs |
+| 28 | Political season | Photo post (compliant) | "Campaign season: reach every precinct you need" | Political page | Campaigns |
+| 29 | Monthly highlight reel | Montage video | "Every ad we ran in [Month]" | Get on next month's reel | All |
+| 30 | Offer post | Photo + Reel | "New clients: free ad design on your first route" (if offered) | Claim offer (Lead Ad) | SMBs |
 
-### Short-form video strategy
-- **Cadence:** 3–4 Reels per week, cross-posted to TikTok and Shorts with native captions.
-- **Format rules:** vertical 9:16, 7–25 s, captions burned in, the truck visible in the first second, a recognisable DFW landmark in the shot, trending audio on TikTok (licensed audio only for ads).
+### Facebook video strategy
+- **Cadence:** 3–4 Facebook Reels per week, plus Stories on route nights.
+- **Format rules:** vertical 9:16, 7–25 s, captions burned in (most people watch on mute), the truck visible in the first second, a recognisable DFW landmark in the shot, licensed music only.
 - **Hooks for the first 3 seconds:**
-  - "POV: your ad just drove past 5,000 people in Deep Ellum"
+  - "POV: your ad just drove past the Saturday crowd in Deep Ellum"
   - "This truck is a billboard. Watch."
-  - "Frisco banned billboards. So we built one on wheels."
+  - "Frisco limits billboards. So we built one on wheels."
   - "What $___ in advertising looks like in Dallas" (real price)
   - "Your competitor's customers are at this game right now"
   - "Stop scrolling, this is a billboard"
   - "I put a restaurant's menu on a 12-ft screen…"
   - "How much does this truck cost to rent?"
 
-### 10 sample short-form scripts
+### 10 sample Facebook video scripts
 
 1. **"Billboard on Wheels"**
    - **Hook (0–2 s):** Close-up of the dark LED screen, which flicks on. Text: "This truck is a billboard."
@@ -883,7 +891,7 @@ SMB owners within ~25 mi of Dallas; restaurant and bar owners (Deep Ellum, Uptow
    - **On-screen text:** "Fri & Sat · 6–11 pm · Deep Ellum + Uptown"
    - **Voiceover:** none (music).
    - **Caption:** "Your ad, where the weekend crowd actually is. 🚚✨"
-   - **CTA:** "DM 'ROUTE' for this week's openings."
+   - **CTA:** "Message us 'ROUTE' for this week's openings."
 
 2. **"Price Myth"**
    - **Hook:** Owner to camera: "Everyone thinks this costs $10,000 a day."
@@ -891,7 +899,7 @@ SMB owners within ~25 mi of Dallas; restaurant and bar owners (Deep Ellum, Uptow
    - **On-screen text:** "Shared routes from $__/week"
    - **Voiceover:** "Here's the truth. On a shared route, a handful of local businesses rotate on the same truck…"
    - **Caption:** "Real pricing, no games."
-   - **CTA:** "Link in bio for a quote."
+   - **CTA:** "Tap Get Quote."
 
 3. **"Frisco Can't Have Billboards"**
    - **Hook:** Text over a Frisco skyline: "Frisco limits roadside billboards…" (verify the ordinance)
@@ -913,20 +921,20 @@ SMB owners within ~25 mi of Dallas; restaurant and bar owners (Deep Ellum, Uptow
    - **Scenes:** the design process on a laptop → upload → truck.
    - **On-screen text:** "We size and format your ad for LED, free" (only if true)
    - **Caption:** "Glow-up. 💡"
-   - **CTA:** "Send us your flyer."
+   - **CTA:** "Send us your flyer in Messenger."
 
 6. **"Day in the Life"**
    - **Hook:** "5 am. Charging the screens."
    - **Scenes:** pre-trip checks, route map, timelapse of driving through Dallas, a client wave, end of night.
    - **Voiceover:** a casual first-person driver narrative.
    - **Caption:** "What it really takes to run a billboard truck."
-   - **CTA:** "Follow for routes."
+   - **CTA:** "Follow the Page for routes."
 
 7. **"Client Reaction"**
    - **Hook:** "We drove their ad past their store and they had no idea."
    - **Scenes:** the client's reaction (with consent), a hug or handshake, the client's quote.
    - **Caption:** "This never gets old."
-   - **CTA:** "Want your moment? Link in bio."
+   - **CTA:** "Want your moment? Tap Get Quote."
 
 8. **"3 Ad Design Mistakes"**
    - **Hook:** "Your billboard ad is probably too wordy."
@@ -946,90 +954,26 @@ SMB owners within ~25 mi of Dallas; restaurant and bar owners (Deep Ellum, Uptow
     - **Hook:** "Do billboard trucks actually work?"
     - **Scenes:** the owner answering honestly: what works, what to track (QR, call tracking), a real client example.
     - **Caption:** "Honest answer from a billboard truck owner."
-    - **CTA:** "Questions? DM us."
+    - **CTA:** "Questions? Send us a message."
 
-### Paid social (Meta: Facebook + Instagram)
+### Facebook advertising
 
 | Order | Campaign | Objective | Audience | Creative | Indicative budget |
 |---|---|---|---|---|---|
-| 1 | **Retargeting** | Leads (website conversions) | Site visitors 30 days (Pixel), IG/FB engagers 60 days, video viewers 50%+ | Testimonial reels, "spots left this week", pricing carousel | $10–$20/day |
-| 2 | **Lead generation, DFW SMB** | Leads (Instant Form with 3 qualifying questions; or website leads once CAPI is live) | 25-mi radius around Dallas + Frisco/Plano + Rockwall; business-owner interests (small business owners, Facebook Page admins, restaurant, real estate) or Advantage+ audience with a DFW geo | Truck-in-action Reels + an offer ("Free route plan") | $20–$40/day |
-| 3 | **Event/seasonal pushes** | Leads | Geo + interests (event promotion, nightlife businesses) 30 days before key events (State Fair, holiday season, election season) | Event-route videos | Burst budgets of $300–$800 per push |
-| 4 | Video views (warm-up) | ThruPlay | Broad DFW 25–60 | Best organic Reels | $5–$10/day (optional) |
+| 1 | **Retargeting** | Leads (website conversions) | Website visitors 30 days (Pixel), Page engagers 60 days, video viewers 50%+ | Testimonial videos, "spots left this week", pricing carousel | $10–$20/day |
+| 2 | **Lead generation, DFW businesses** | Leads (Instant Form with 3 qualifying questions; or website leads once the Conversions API is live) | 25-mi radius around Dallas + Frisco/Plano + Rockwall; interests such as small business owners, Facebook Page admins, restaurants, real estate | Truck-in-action videos + an offer ("Free route plan") | $20–$40/day |
+| 3 | **Event and seasonal pushes** | Leads | Location + interests (event promotion, nightlife businesses) 30 days before key events (State Fair, holiday season, election season) | Event-route videos | Burst budgets of $300–$800 per push |
+| 4 | Video views (warm-up) | ThruPlay | Broad DFW, ages 25–60 | Best organic videos | $5–$10/day (optional) |
 
 **Notes:**
-- **Special ad category:** political campaign advertisers must use Meta's "Social issues, elections or politics" authorisation if MOD runs ads *about* politics. Promoting MOD's political billboard service may also trigger it, so review Meta policy.
+- **Placements:** run the ads on Facebook placements (Feed, Reels, Stories, Marketplace) to keep the focus on Facebook.
+- **Special ad category:** political advertisers must complete Meta's "Social issues, elections or politics" authorisation. Promoting MOD's political billboard service may also trigger it, so review Meta policy first.
 - **Creative testing:** 3 hooks × 2 offers each month. Keep the winners by **cost per qualified lead**, not cost per lead.
-- **Assumptions:** B2B local lead costs on Meta vary widely. Plan for a 4–6 week learning period before judging results. These are budget ranges, not performance promises.
+- **Assumptions:** local B2B lead costs on Facebook vary widely. Plan for a 4–6 week learning period before judging results. These are budget ranges, not performance promises.
 
-## 16. Phase 10 — Google Ads and paid search
+## 16. Phase 10 — Paid search (optional later add-on)
 
-**Why:** people searching "mobile billboard truck rental Dallas" are ready to buy *now*. Google Search Ads put MOD Media in front of them in days, while SEO takes 3–9 months to build.
-
-- **Paid visibility vs organic SEO:** Ads stop the moment spend stops, cost per click, and can be switched on immediately and targeted precisely. Organic SEO is "free" per click and compounds over time, but it's slow and not guaranteed. Running both lets paid data (which keywords convert) guide SEO priorities.
-
-**Recommended format:**
-- **Search campaigns** (+ call assets) first.
-- **Performance Max** isn't recommended at launch for this niche: it spends on broad, low-intent placements and hides search terms.
-- **YouTube or Display** only for remarketing later.
-- Use **Local Services Ads** only if a category exists for this business type (unlikely for advertising services).
-
-**Campaign structure (launch):**
-
-| Campaign | Ad group | Example keywords (phrase/exact) | Landing page |
-|---|---|---|---|
-| Search – DFW Core | Mobile Billboard Dallas | "mobile billboard dallas", [mobile billboard advertising dallas], "mobile billboard dfw" | Homepage (or a dedicated `/lp/dallas-mobile-billboards/` with no nav distractions) |
-| | LED Truck Rental | "led billboard truck rental", "digital billboard truck rental", "billboard truck rental dallas", "led truck advertising" | Exclusive Rental |
-| | Pricing | "mobile billboard cost", "billboard truck price", "how much is a mobile billboard" | Pricing page |
-| | Events | "event mobile billboard", "billboard truck for events", "advertise at cowboys game" | Event Routes |
-| Search – North DFW & Rockwall | Frisco/Plano/Rockwall | "mobile billboard frisco", "mobile billboard plano", "billboard truck rockwall" | City pages |
-| Search – Texas Exclusive (later) | Austin/Houston/SA | "mobile billboard houston", "led billboard truck austin"… | City pages |
-| Search – Brand | Brand | "mod media", "mod media dfw", "modmediadfw" | Homepage |
-
-- **Geo:** "Presence: people in or regularly in" the targeted locations (not "interest in"). Launch with Dallas, Collin, Denton, Tarrant (if served) and Rockwall counties. Austin, Houston and San Antonio as separate campaigns once DFW is profitable.
-- **Schedule:** all hours at launch. Add bid adjustments after 30 days of data.
-- **Bidding:** start with Maximize Clicks with a CPC cap (or Manual CPC) for 2–4 weeks. Move to Maximize Conversions or tCPA after 15–30 tracked conversions.
-
-**Negative keywords (starter list):** for sale, buy, used, build, manufacturer, price of truck, financing, jobs, job, hiring, driver jobs, salary, career, DIY, how to make, free, template, Canva, app, mobile ads (phone), google ads, facebook ads, sign shop, vinyl wrap (unless offered), car wrap (unless offered), billboard chart, Billboard magazine, Hot 100, music, lyrics, billboard for rent near me (static, test it first), Lamar, Outfront, Clear Channel (competitor static brands; optional), school, course.
-
-**Ad copy (RSA examples):**
-- **Headlines:**
-  - Mobile Billboards in Dallas
-  - LED Billboard Truck Rental
-  - Scheduled DFW Routes Weekly
-  - Deep Ellum & Uptown Nights
-  - Game-Day & Event Routes
-  - Family-Owned in Rockwall, TX
-  - Get a Free Route Plan
-  - Call or Text (469) 279-2511
-  - Shared Routes or Exclusive
-  - Your Ad on a 12-ft LED Screen (verify the size)
-- **Descriptions:**
-  - "Put your ad on a full-color LED truck in Dallas, Frisco, Plano and Rockwall. Free route plan in 1 business day."
-  - "Join a shared weekly route or book a truck exclusively for your grand opening, launch or event. Get a quote today."
-- **Assets:**
-  - **Call asset** using a Google forwarding number (call tracking) in business hours.
-  - **Sitelinks:** Pricing · Nightlife Route · Event Routes · Exclusive Rental.
-  - **Callouts:** "Family-Owned", "Free Route Plan", "GPS-Tracked Routes" (if true).
-  - **Structured snippets:** Services: Shared Routes, Nightlife, Events, Exclusive Rental.
-  - **Image assets:** real truck photos.
-  - **Location asset:** only once GBP is linked and correct.
-
-**Conversion tracking (required before spend):**
-1. GA4 key events + Google Ads conversion via GTM: `generate_lead` (form success), `click_to_call`, `sms_click`, `email_click`.
-2. **Calls from ads** (call asset, calls of 60 s+).
-3. **Website call conversions** (Google forwarding number swap on the site).
-4. Offline conversion import (lead → booked campaign) from a simple CRM or spreadsheet, using GCLID capture in a hidden form field, so Google learns which clicks become paying customers.
-
-**Budget scenarios (assumption-based; CPCs unverified):**
-
-| Scenario | Monthly ad spend | Assumed CPC range | Est. clicks | Notes |
-|---|---|---|---|---|
-| Test | $750 | $4–$10 | ~75–190 | DFW Core only, exact/phrase |
-| Recommended start | $1,500 | $4–$10 | ~150–375 | DFW Core + North DFW + brand |
-| Expansion | $3,000+ | $4–$12 | ~250–750 | Add Austin, Houston and SA exclusive campaigns |
-
-Validate the CPC assumptions in Keyword Planner before committing. Judge the campaign by **cost per qualified lead** and **cost per booked campaign** after 60–90 days.
+The current plan focuses on the website, Google Business Profile and Facebook. Once the website pages and tracking are fixed, Google Search Ads can be added later as an optional channel to capture people already searching for "mobile billboard Dallas" or "LED billboard truck rental". The new pricing, service and city pages built in this plan would serve as their landing pages.
 
 ## 17. Phase 11 — Schema and AI search visibility
 
@@ -1073,10 +1017,7 @@ Use **Yoast Local SEO** (paid add-on) or a custom JSON-LD snippet via WPCode, in
       ],
       "sameAs": [
         "https://www.facebook.com/profile.php?id=100088542497714",
-        "https://www.instagram.com/modmediaadsllc/",
-        "<<Google Maps CID URL>>",
-        "<<LinkedIn URL>>",
-        "<<YouTube URL>>"
+        "<<Google Maps CID URL>>"
       ]
     },
     {
@@ -1119,7 +1060,7 @@ Use **Yoast Local SEO** (paid add-on) or a custom JSON-LD snippet via WPCode, in
 ### AI search visibility (Google AI Overviews, ChatGPT search, Copilot, Perplexity)
 
 What realistically helps. We can't promise inclusion.
-1. **Entity consistency:** one name ("MOD Media"), one NAP, and the same description everywhere (site, GBP, Bing Places, Apple, LinkedIn, chambers, directories). AI systems cross-check sources.
+1. **Entity consistency:** one name ("MOD Media"), one NAP, and the same description everywhere (site, GBP, Facebook, Bing Places, Apple, chambers, directories). AI systems cross-check sources.
 2. **Bing Places + Bing Webmaster Tools:** ChatGPT search and Copilot rely heavily on Bing's index. Submit the sitemap to Bing and enable IndexNow (Yoast or the LiteSpeed plugin supports it).
 3. **Answer-ready content:** clear, factual statements that AI can quote. For example: "MOD Media's Dallas nightlife route runs Friday and Saturday from 6 to 11 pm through Deep Ellum and Uptown." Add pricing ranges, specs and schedules in plain HTML text (not inside images or sliders).
 4. **FAQ sections** on every service and city page, written as natural questions.
@@ -1167,7 +1108,7 @@ What realistically helps. We can't promise inclusion.
 
 **Setup (WordPress):**
 1. **Google Tag Manager:** install via the GTM4WP plugin or Site Kit. One container.
-2. **GA4:** through GTM. Enable Enhanced Measurement. Link to Search Console and Google Ads.
+2. **GA4:** through GTM. Enable Enhanced Measurement. Link to Search Console.
 3. **Search Console:** a domain property (DNS TXT). Submit `sitemap_index.xml`. Verify **Bing Webmaster Tools** too (import from GSC).
 4. **Conversion events (GA4 key events):**
 
@@ -1182,9 +1123,9 @@ What realistically helps. We can't promise inclusion.
 | 7 | `scroll_pricing` / `view_pricing` | Pricing page view | Micro |
 | 8 | `video_play` | Truck video play | Micro |
 
-5. **Call tracking:** dynamic number insertion (e.g. CallRail, from about $50/month) shows a different number per source (Google Ads, organic, GBP, Meta), while the GBP primary number stays consistent or the main number is listed as additional. Record calls only with the disclosures Texas law and the provider's terms require (Texas is a one-party consent state; confirm with counsel for interstate calls).
+5. **Call tracking:** dynamic number insertion (e.g. CallRail, from about $50/month) shows a different number per source (organic search, GBP, Facebook), while the GBP primary number stays consistent or the main number is listed as additional. Record calls only with the disclosures Texas law and the provider's terms require (Texas is a one-party consent state; confirm with counsel for interstate calls).
 6. **Meta Pixel + Conversions API:** via the official Meta plugin or GTM server-side. Events: PageView, ViewContent (service pages), Lead (form success), Contact (call/SMS click).
-7. **UTMs:** on GBP website and appointment links, social bios (via a link-in-bio page), every post link, email signatures, and **QR codes on the trucks' own house ads** (e.g. `?utm_source=truck&utm_medium=qr`).
+7. **UTMs:** on GBP website and appointment links, the Facebook Page button and every Facebook post link, email signatures, and **QR codes on the trucks' own house ads** (e.g. `?utm_source=truck&utm_medium=qr`).
 8. **CRM / lead sheet:** at minimum a Google Sheet or HubSpot Free with Date · Source (form/call/SMS) · Channel (GA4 or call tracking) · Service · City · Budget · Qualified (Y/N) · Booked (Y/N) · Revenue. Capture GCLID/fbclid in hidden form fields for offline conversion uploads.
 
 **Identifying qualified leads by channel:** Qualified = in the service area + a budget above the minimum + a date within 90 days. Report **cost per qualified lead** and **booked revenue per channel** monthly.
@@ -1193,8 +1134,8 @@ What realistically helps. We can't promise inclusion.
 - **Page 1, Overview:** leads by channel (form, call, SMS), qualified %, booked campaigns, revenue (from the CRM sheet).
 - **Page 2, SEO:** GSC clicks, impressions and avg. position for priority keywords; top landing pages; new pages indexed.
 - **Page 3, Local:** GBP calls, website clicks, direction requests, searches (via the GBP Performance export), reviews count and rating trend.
-- **Page 4, Paid:** Google Ads and Meta spend, CPC, CTR, conversions, cost per qualified lead.
-- **Page 5, Social:** reach, followers, Reel views, profile visits, link clicks, DMs.
+- **Page 4, Facebook ads:** spend, reach, cost per lead, cost per qualified lead.
+- **Page 5, Facebook Page:** reach, followers, video views, link clicks, messages.
 
 ## 20. Phase 14 — Prioritised 90-day action plan
 
@@ -1210,7 +1151,7 @@ What realistically helps. We can't promise inclusion.
 | Set up call tracking | High | 2 h | Easy | High | Budget approval |
 | Claim/verify GBP; check the pin, address, name and categories | Critical | 2 h | Easy | High (local) | Confirmation of the real base |
 | Add H1s to all 18 pages (change the first heading widget) | High | 2 h | Easy | Medium | — |
-| Fix the footer social links; fix the Yoast site name | Medium | 30 min | Easy | Low | Social URLs |
+| Link the footer Facebook icon; remove unused social icons; fix the Yoast site name | Medium | 30 min | Easy | Low | Facebook Page URL |
 | Move the analytics PDF onto the site | Medium | 30 min | Easy | Low | PDF file |
 
 ### Days 8–30: foundation
@@ -1229,9 +1170,8 @@ What realistically helps. We can't promise inclusion.
 | Optimise GBP fully (checklist) + first 20 photos | Critical | 4 h | Easy | High | Photos |
 | Start the review program | High | 2 h set-up | Easy | High | Client list |
 | NAP citations (top 10) | Medium | 4 h | Easy | Medium | Final NAP |
-| Social profile optimisation (bios, links, highlights, consistent name) | Medium | 3 h | Easy | Medium | — |
-| Launch Google Search Ads (DFW Core + Brand) | High | 6 h | Medium | High (fast leads) | Tracking live, LPs fixed |
-| Produce the first 8 short videos | High | 1 shoot day | Medium | Medium | Truck schedule |
+| Facebook Page optimisation (name, description, Get Quote button, auto-replies) + Meta Pixel | High | 3 h | Easy | Medium | Page access |
+| Produce the first 8 Facebook videos | High | 1 shoot day | Medium | Medium | Truck schedule |
 
 ### Days 31–60: growth
 
@@ -1242,10 +1182,10 @@ What realistically helps. We can't promise inclusion.
 | Build event pages (AT&T Stadium game days; State Fair, for 2027 season) | Medium | 6 h each | Medium | Medium | Event calendar |
 | 3 case studies with client permission | High | 4 h each | Medium | High (trust, AI) | Client approval, data |
 | Chamber memberships + local PR pitch | Medium | 6 h | Medium | Medium | Budget |
-| Meta retargeting + lead campaigns | High | 4 h | Medium | Medium–High | Pixel/CAPI, creative |
-| Weekly video cadence (3–4/wk) | High | Ongoing | Medium | Medium | Footage |
+| Facebook retargeting + lead campaigns | High | 4 h | Medium | Medium–High | Pixel, creative |
+| Weekly Facebook video cadence (3–4/wk) | High | Ongoing | Medium | Medium | Footage |
 | Competitor gap pages (Rockwall terms, Frisco hotspot terms) | Medium | 4 h | Easy | Medium | — |
-| Ads: search-term mining, negatives, ad tests | High | 2 h/wk | Medium | High | Data |
+| Facebook ads: audience and creative tests | High | 2 h/wk | Medium | High | Data |
 
 ### Days 61–90: expansion
 
@@ -1254,15 +1194,14 @@ What realistically helps. We can't promise inclusion.
 | Expand pages gaining impressions (from GSC data) | High | 6–10 h | Medium | Medium–High | 60 days of GSC data |
 | Improve underperforming pages (titles/CTR, content) | Medium | 4–6 h | Medium | Medium | GSC |
 | Fort Worth page (only if operationally true) | Medium | 6 h | Medium | Medium | Confirmed routes |
-| Austin/Houston/SA Ads campaigns (if DFW is profitable) | Medium | 4 h | Medium | Medium | Ads data |
 | Backlink outreach (sponsorships, partners, client links) | Medium | 8 h/mo | Medium | Medium | Case studies |
-| Expand retargeting (Google RLSA/YouTube remarketing) | Medium | 3 h | Medium | Medium | Audiences built |
-| Paid optimisation: tCPA bidding, offline conversion import | High | 4 h | Hard | High | 30+ conversions, CRM |
+| Expand Facebook retargeting (lookalike audiences of past leads) | Medium | 3 h | Medium | Medium | Audiences built |
+| Facebook ads optimisation: scale winning ads, import booked customers as an audience | High | 4 h | Medium | High | 30+ leads, CRM |
 | 90-day performance report + next-quarter plan | High | 6 h | Easy | High (decisions) | Dashboard |
 
 ---
 
-## 22. The three critical questions
+## 21. The three critical questions
 
 **1. Why is MOD Media struggling to generate leads and rank on Google?**
 - The key commercial pages look unfinished (Lorem Ipsum, a dead phone link).
@@ -1271,19 +1210,18 @@ What realistically helps. We can't promise inclusion.
 - Brand and location signals are inconsistent, which holds back Maps visibility.
 - The site is heavy on mobile.
 - There's no tracking, so nobody can see or improve what's happening.
-- 
 
 **2. What specific changes give the best chance of improving visibility and attracting qualified customers?**
 Fix the trust breakers and tracking in week one. Rebuild the homepage and four service pages around buyer keywords with real proof. Publish a pricing page. Merge or rewrite the duplicate and city pages. Fully optimise GBP and collect steady genuine reviews. Add LocalBusiness and Service schema. Compress the media.
 
-**3. How do SEO, GBP, social and paid ads work together?**
-- **Google Ads and GBP** capture people already searching, starting now.
-- **SEO** builds the same visibility organically over months, guided by which paid keywords convert.
-- **Short-form video** makes MOD Media familiar locally and supplies proof for every page and ad.
-- **Retargeting** brings back visitors who didn't enquire the first time.
+**3. How do the website, GBP and Facebook work together?**
+- **Google Business Profile** captures people already searching on Google Maps, starting now.
+- **Website SEO** builds visibility for buyer searches over months, and gives every visitor a clear way to request a quote.
+- **Facebook videos** make MOD Media familiar to local business owners and supply proof for the website and ads.
+- **Facebook lead ads** generate enquiries while SEO builds, and **Facebook retargeting** brings back website visitors who didn't enquire the first time.
 - **Every finished campaign** produces a review, a case study and new content, which feeds the loop again.
 
-## 23. The 10 highest-priority actions (ranked by impact and urgency)
+## 22. The 10 highest-priority actions (ranked by impact and urgency)
 
 1. **Remove the Lorem Ipsum and fix the broken `tel:123 444 678` phone link** on the Daily Route, Nightlife, Exclusive Rental and Event Routes pages. *(Day 1)*
 2. **Install tracking:** GTM + GA4 + Search Console + call tracking + key events for forms, calls and SMS. *(Week 1)*
@@ -1292,9 +1230,9 @@ Fix the trust breakers and tracking in week one. Rebuild the homepage and four s
 5. **Add keyword-led H1s, titles and meta descriptions** to every page, and set the site name to "MOD Media". *(Week 1–2)*
 6. **Publish a Mobile Billboard Pricing page** with honest "starting at" ranges, and fill the empty pricing section. *(Week 2–4)*
 7. **Rebuild the homepage and the four core service pages** with real truck photos and video, route schedules, how-it-works, FAQs and proof. Merge the duplicate nightlife pages. *(Week 2–5)*
-8. **Launch a tightly targeted Google Search Ads campaign** (DFW core terms, negatives, call assets) once tracking and landing pages are fixed. *(Week 3–4)*
+8. **Launch Facebook lead and retargeting ads** (DFW business owners, "Free Route Plan" offer) once the Meta Pixel and landing pages are fixed. *(Week 3–4)*
 9. **Clean up the site:** delete the spam hello-world post, disable the author and category archives, compress the 21 MB video and 1 MB PNGs, and rewrite the city pages to remove wrong-city boilerplate. *(Week 1–6)*
-10. **Start the review and content engine:** review requests after every campaign, 3–4 truck Reels a week, and one case study a month, amplified with Meta retargeting. *(Week 3 onward)*
+10. **Start the review and content engine:** review requests after every campaign, 3–4 Facebook truck videos a week, and one case study a month, amplified with Facebook retargeting. *(Week 3 onward)*
 
 ---
 
