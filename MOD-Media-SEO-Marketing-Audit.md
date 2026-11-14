@@ -227,10 +227,10 @@ Simple monthly pricing: one core service plus two optional add-ons. There are no
 
 | Service | What's included | Monthly fee |
 |---|---|---|
-| **Website & SEO** (core) | New modern website design (included), on-page SEO (titles, headings, content, schema), off-page SEO (local citations, links, directories), site speed optimisation, up to 5 new articles or landing pages per month, technical fixes, tracking and a monthly SEO report | **$699** |
+| **Website & SEO** (core) | New modern website design (included), on-page SEO (titles, headings, content, schema), off-page SEO (local citations, links, directories), site speed optimisation, up to 5 new articles or landing pages per month, technical fixes, tracking and a monthly SEO report | **$599** |
 | **Facebook** (add-on) | Facebook Page set-up and optimisation, up to 15 posts per month (truck photos, route updates, client spotlights), designed graphics in MOD Media branding, monthly content calendar | **$199** |
-| **Google Business Profile** (add-on) | Profile clean-up (pin, categories, services, photos), weekly Google posts, review request program and review replies, Q&A and photo updates | **$149** |
-| **All three together** | Recommended: the website, Google Maps and Facebook reinforce each other | **$1,047** |
+| **Google Business Profile** (add-on) | Profile clean-up (pin, categories, services, photos), weekly Google posts, review request program and review replies, Q&A and photo updates | **$199** |
+| **All three together** | Recommended: the website, Google Maps and Facebook reinforce each other | **$997** |
 | **Optional: Google Ads / Meta Ads management** | Campaign set-up, targeting, creative and monthly optimisation | Quoted separately. Ad budget is paid directly to Google or Meta |
 
 **Billing:** monthly, at the start of each month, with a 3-month minimum so the SEO work has time to show results, then month to month. We can't guarantee rankings, leads or ad performance.
