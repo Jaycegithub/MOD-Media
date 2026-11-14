@@ -248,6 +248,22 @@ footer{padding-block:60px 120px;border-top:1px solid var(--line);color:var(--mut
 .stage-note{margin-top:30px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;font-size:13px;color:var(--muted)}
 .stage.day .stage-note{color:#0b1020}
 
+/* Image upload */
+.upl{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.upl-input{position:absolute;width:1px;height:1px;opacity:0;pointer-events:none}
+.upl-drop{flex:1 1 240px;display:flex;align-items:center;gap:14px;cursor:pointer;padding:14px 16px;border-radius:12px;border:1.5px dashed #33405f;background:#0a0f1e;transition:border-color .2s,background .2s}
+.upl-drop:hover,.upl-input:focus-visible+.upl-drop{border-color:var(--led);background:var(--led-soft)}
+.field .upl-drop{font:500 14px/1.4 var(--body);letter-spacing:0;text-transform:none;color:var(--text)}
+.upl-drop b{display:block;font-weight:600;font-size:14px;color:var(--text);word-break:break-all}
+.upl-drop small{display:block;font-size:12px;color:var(--muted);margin-top:2px}
+.upl-icon{flex:0 0 auto;width:36px;height:36px;border-radius:10px;display:grid;place-items:center;background:var(--led-soft);color:var(--led);font-weight:700;font-size:20px}
+.upl.has .upl-drop{border-style:solid;border-color:rgba(46,230,240,.5)}
+.upl-err{margin:0;font-size:13px;color:#ff8fb6}
+#imgOpts{margin-top:10px}
+.field input:disabled{opacity:.4}
+.stage.drag .screen{outline:3px dashed var(--led);outline-offset:6px}
+.ad .inner[hidden]{display:none}
+
 /* Route finder */
 .finder{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:28px;align-items:start}
 .qblock{display:grid;gap:12px}
@@ -567,6 +583,25 @@ footer{padding-block:60px 120px;border-top:1px solid var(--line);color:var(--mut
         <div class="field"><label for="adHead">Headline</label><input id="adHead" maxlength="32" value="Grand opening Saturday"></div>
         <div class="counter" id="adCount">22 / 32</div>
         <div class="field"><label for="adSub">Second line</label><input id="adSub" maxlength="40" value="Main St · Rockwall · 10am"></div>
+        <div class="field"><label>Text on screen</label>
+          <div class="toggles">
+            <button type="button" class="tg" id="tHead" aria-pressed="true">Show headline</button>
+            <button type="button" class="tg" id="tSub" aria-pressed="true">Show second line</button>
+          </div>
+        </div>
+        <div class="field"><label for="adImg">Background image</label>
+          <div class="upl" id="upl">
+            <input type="file" id="adImg" accept="image/*" class="upl-input">
+            <label for="adImg" class="upl-drop"><span class="upl-icon" aria-hidden="true">＋</span><span><b id="adImgName">Choose an image from your computer</b><small id="adImgHint">JPG, PNG or WebP · or drag it onto the screen</small></span></label>
+            <button type="button" class="tg" id="adImgRm" hidden>Remove image</button>
+          </div>
+          <div class="toggles" id="imgOpts" hidden>
+            <button type="button" class="tg" aria-pressed="true" data-fit="cover">Fill screen</button>
+            <button type="button" class="tg" aria-pressed="false" data-fit="contain">Show whole image</button>
+            <button type="button" class="tg" id="adDim" aria-pressed="true">Darken behind text</button>
+          </div>
+          <p class="upl-err" id="adImgErr" hidden></p>
+        </div>
         <div class="field"><label>Style</label>
           <div class="swatches" id="swatches">
             <button class="sw" aria-pressed="true" data-theme="neon"><i style="background:linear-gradient(135deg,#0e5f73,#2ee6f0)"></i>Neon night</button>
@@ -853,7 +888,7 @@ var RM=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   });
 })();
 // Ad builder
-var adState={theme:'neon',fx:'static'};
+var adState={theme:'neon',fx:'static',img:null,fit:'cover',dim:true,showHead:true,showSub:true};
 (function(){
   var TH={neon:{bg:'radial-gradient(circle at 30% 30%,#0e5f73,#03141c)',c:'#fff',sh:'0 0 20px #2ee6f0',s:'#2ee6f0'},
           sunset:{bg:'linear-gradient(135deg,#ff3d8b,#ff8a3d)',c:'#fff',sh:'none',s:'#2a0010'},
@@ -863,15 +898,46 @@ var adState={theme:'neon',fx:'static'};
   function render(){
     var h=head.value.trim()||'Your ad here',su=sub.value.trim();
     big.textContent=h;sm.textContent=su;cnt.textContent=head.value.length+' / 32';
-    var th=TH[adState.theme];ad.style.background=th.bg;big.style.color=th.c;big.style.textShadow=th.sh;sm.style.color=th.s;
+    var th=TH[adState.theme];
+    if(adState.img){
+      var anyText=adState.showHead||adState.showSub;
+      var layers=(adState.dim&&anyText?'linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.45)),':'')+'url("'+adState.img+'") center/'+adState.fit+' no-repeat, #000';
+      ad.style.background=layers;
+      big.style.color='#fff';big.style.textShadow='0 2px 18px rgba(0,0,0,.8)';sm.style.color='#fff';
+    } else {ad.style.background=th.bg;big.style.color=th.c;big.style.textShadow=th.sh;sm.style.color=th.s;}
+    big.hidden=!adState.showHead;sm.hidden=!adState.showSub||!su;
+    head.disabled=!adState.showHead;sub.disabled=!adState.showSub;
     ad.classList.toggle('flash',adState.fx==='flash'&&!RM);ad.classList.toggle('scroll',adState.fx==='scroll'&&!RM);
-    var words=(h+' '+su).split(/\s+/).filter(Boolean).length;
+    var words=((adState.showHead?h:'')+' '+(adState.showSub?su:'')).split(/\s+/).filter(Boolean).length;
+    if(words===0){rt.textContent=adState.img?'Image only: make sure your image carries the message':'Add some text or an image';return;}
     rt.textContent=words<=7?'Short and punchy: easy to read from the street':(words<=11?'Good length: keep it under 7 words if you can':'Tip: fewer words read better from a moving truck');
   }
   head.addEventListener('input',render);sub.addEventListener('input',render);
   function group(id,key,attr){var bs=[].slice.call(document.querySelectorAll('#'+id+' button'));bs.forEach(function(b){b.addEventListener('click',function(){bs.forEach(function(x){x.setAttribute('aria-pressed','false')});b.setAttribute('aria-pressed','true');adState[key]=b.dataset[attr];render();})})}
   group('swatches','theme','theme');group('effects','fx','fx');
   var tb=[].slice.call(document.querySelectorAll('#tod button'));tb.forEach(function(b){b.addEventListener('click',function(){tb.forEach(function(x){x.setAttribute('aria-pressed','false')});b.setAttribute('aria-pressed','true');stage.classList.toggle('day',b.dataset.t==='day');})});
+  // show/hide text
+  [['tHead','showHead'],['tSub','showSub']].forEach(function(p){var b=document.getElementById(p[0]);b.addEventListener('click',function(){adState[p[1]]=!adState[p[1]];b.setAttribute('aria-pressed',adState[p[1]]?'true':'false');render();})});
+  // background image
+  var fi=document.getElementById('adImg'),rm=document.getElementById('adImgRm'),nm=document.getElementById('adImgName'),hint=document.getElementById('adImgHint'),opts=document.getElementById('imgOpts'),err=document.getElementById('adImgErr'),upl=document.getElementById('upl');
+  function loadFile(f){
+    err.hidden=true;
+    if(!f)return;
+    if(!/^image\//.test(f.type)){err.textContent='That file isn\u2019t an image. Choose a JPG, PNG or WebP file.';err.hidden=false;return;}
+    if(f.size>15*1024*1024){err.textContent='That image is over 15 MB. Choose a smaller file.';err.hidden=false;return;}
+    var r=new FileReader();
+    r.onload=function(){adState.img=r.result;nm.textContent=f.name;hint.textContent='Click to choose a different image';rm.hidden=false;opts.hidden=false;upl.classList.add('has');render();};
+    r.onerror=function(){err.textContent='Couldn\u2019t read that file. Try another image.';err.hidden=false;};
+    r.readAsDataURL(f);
+  }
+  fi.addEventListener('change',function(){loadFile(fi.files&&fi.files[0])});
+  rm.addEventListener('click',function(){adState.img=null;fi.value='';nm.textContent='Choose an image from your computer';hint.textContent='JPG, PNG or WebP · or drag it onto the screen';rm.hidden=true;opts.hidden=true;upl.classList.remove('has');render();});
+  var fitBtns=[].slice.call(document.querySelectorAll('#imgOpts [data-fit]'));
+  fitBtns.forEach(function(b){b.addEventListener('click',function(){fitBtns.forEach(function(x){x.setAttribute('aria-pressed','false')});b.setAttribute('aria-pressed','true');adState.fit=b.dataset.fit;render();})});
+  var dim=document.getElementById('adDim');dim.addEventListener('click',function(){adState.dim=!adState.dim;dim.setAttribute('aria-pressed',adState.dim?'true':'false');render();});
+  ['dragenter','dragover'].forEach(function(ev){stage.addEventListener(ev,function(e){e.preventDefault();stage.classList.add('drag')})});
+  ['dragleave','drop'].forEach(function(ev){stage.addEventListener(ev,function(e){e.preventDefault();stage.classList.remove('drag')})});
+  stage.addEventListener('drop',function(e){var f=e.dataTransfer&&e.dataTransfer.files&&e.dataTransfer.files[0];loadFile(f);});
   render();
 })();
 // Route finder
@@ -936,7 +1002,7 @@ var adState={theme:'neon',fx:'static'};
   tabs.forEach(function(t,k){t.addEventListener('click',function(){show(k)})});
   show(0);
 })();
-document.getElementById('useAd').addEventListener('click',function(){var h=document.getElementById('adHead').value,s=document.getElementById('adSub').value;document.getElementById('msg').value=h+(s?' — '+s:'');});
+document.getElementById('useAd').addEventListener('click',function(){var parts=[];if(adState.showHead&&document.getElementById('adHead').value)parts.push(document.getElementById('adHead').value);if(adState.showSub&&document.getElementById('adSub').value)parts.push(document.getElementById('adSub').value);var m=parts.join(' — ');if(adState.img)m=(m?m+' ':'')+'(with my own background image)';document.getElementById('msg').value=m;});
 // Quote form
 (function(){
   var f=document.getElementById('qform'),s1=document.getElementById('step1'),s2=document.getElementById('step2'),dn=document.getElementById('done'),bars=f.querySelectorAll('.progress i');
