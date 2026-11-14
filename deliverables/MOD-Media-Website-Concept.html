@@ -249,8 +249,8 @@ footer{padding-block:60px 120px;border-top:1px solid var(--line);color:var(--mut
 .stage.day .stage-note{color:#0b1020}
 
 /* Image upload */
-.upl{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
-.upl-input{position:absolute;width:1px;height:1px;opacity:0;pointer-events:none}
+.upl{position:relative;display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.upl-input{position:absolute;left:0;top:0;width:1px;height:1px;opacity:0;pointer-events:none}
 .upl-drop{flex:1 1 240px;display:flex;align-items:center;gap:14px;cursor:pointer;padding:14px 16px;border-radius:12px;border:1.5px dashed #33405f;background:#0a0f1e;transition:border-color .2s,background .2s}
 .upl-drop:hover,.upl-input:focus-visible+.upl-drop{border-color:var(--led);background:var(--led-soft)}
 .field .upl-drop{font:500 14px/1.4 var(--body);letter-spacing:0;text-transform:none;color:var(--text)}
