@@ -32,6 +32,7 @@ ps['custom_typography'] = [
     T('nav', 'Navigation', 'Inter', 500, px(15), 1.65),
 ]
 ps['default_generic_fonts'] = 'system-ui, -apple-system, Segoe UI, Roboto, sans-serif'
+ps.setdefault('__globals__', {})['button_hover_background_color'] = 'globals/colors?id=primary'
 ps['container_width'] = px(1160)
 ps['container_padding'] = {"unit": "px", "top": "0", "right": "20", "bottom": "0", "left": "20", "isLinked": False}
 ps['space_between_widgets'] = {"column": "0", "row": "0", "isLinked": True, "unit": "px", "size": 0}
@@ -63,7 +64,9 @@ h1.elementor-heading-title,h2.elementor-heading-title,h3.elementor-heading-title
 .mm-ticks .elementor-icon-list-item::before{content:"";flex:none;width:16px;height:16px;border-radius:50%;box-sizing:border-box;background:rgba(46,230,240,.14);border:1px solid rgba(46,230,240,.5);box-shadow:inset 0 0 0 3px #06080F,inset 0 0 0 10px #2EE6F0}
 /* header */
 .mm-header{backdrop-filter:saturate(160%) blur(14px);-webkit-backdrop-filter:saturate(160%) blur(14px)}
-.mm-header .elementor-nav-menu--main .elementor-item.elementor-item-active:after,.mm-header .elementor-nav-menu--main .elementor-item:hover:after{box-shadow:0 0 8px #2EE6F0}
+.mm-header .elementor-nav-menu--main .elementor-item{position:relative;transition:color .2s}
+.mm-header .elementor-nav-menu--main .elementor-item.mm-active{color:#EEF2FB!important}
+.mm-header .elementor-nav-menu--main .elementor-item.mm-active::after{content:""!important;display:block!important;position:absolute!important;left:14px!important;right:14px!important;top:auto!important;bottom:0!important;width:auto!important;height:2px!important;border-radius:2px;background:#2EE6F0!important;box-shadow:0 0 8px #2EE6F0;opacity:1!important;transform:none!important;z-index:2}
 /* brand strip marquee */
 .mm-strip .swiper-wrapper{transition-timing-function:linear!important}
 .mm-strip .swiper-slide{display:grid;place-items:center;height:56px}

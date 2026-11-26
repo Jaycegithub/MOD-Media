@@ -414,10 +414,10 @@ LOGO = lambda w=238: Wd("image", image=img('mod-media-logo'), image_size="full",
                         link={"url": "/", "is_external": "", "nofollow": ""}, align="left", _title="Logo", _flex_size="none")
 HEADER = [con([
     LOGO(),
-    Wd("nav-menu", menu="main-menu", layout="horizontal", align_items="center", pointer="underline", animation_line="fade",
+    Wd("nav-menu", menu="main-menu", layout="horizontal", align_items="center", pointer="none",
        dropdown="tablet", toggle="burger", full_width="stretch", text_align="aside",
        color_menu_item="#9AA6C2", color_menu_item_hover="#EEF2FB", pointer_color_menu_item_hover="#2EE6F0",
-       color_menu_item_active="#EEF2FB", pointer_color_menu_item_active="#2EE6F0", pointer_width=px(2),
+       color_menu_item_active="#9AA6C2",
        **custom_type('Inter', 500, 15, 1.65, px(0), 'none', pre='menu_typography'),
        padding_horizontal_menu_item=px(14), padding_vertical_menu_item=px(8), menu_space_between=px(0),
        color_dropdown_item="#EEF2FB", background_color_dropdown_item="#0B1020", color_dropdown_item_hover="#031317",
@@ -445,7 +445,11 @@ TOTOP = """<style>.mm-pbar{position:fixed;top:0;left:0;height:3px;width:0;z-inde
 .mm-totop.show{opacity:1;pointer-events:auto;transform:none}.mm-totop:focus-visible{outline:3px solid #2EE6F0;outline-offset:3px}
 @media(max-width:640px){.mm-totop{bottom:84px}}</style>
 <div class="mm-pbar" aria-hidden="true"></div><button class="mm-totop" type="button" aria-label="Back to top">↑</button>
-<script>(function(){var b=document.querySelector('.mm-pbar'),t=document.querySelector('.mm-totop');function u(){var h=document.documentElement,m=h.scrollHeight-h.clientHeight,y=h.scrollTop||document.body.scrollTop;b.style.width=(m>0?y/m*100:0)+'%';t.classList.toggle('show',y>800)}addEventListener('scroll',u,{passive:true});u();t.addEventListener('click',function(){scrollTo({top:0,behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'})})})();</script>"""
+<script>(function(){var b=document.querySelector('.mm-pbar'),t=document.querySelector('.mm-totop');function u(){var h=document.documentElement,m=h.scrollHeight-h.clientHeight,y=h.scrollTop||document.body.scrollTop;b.style.width=(m>0?y/m*100:0)+'%';t.classList.toggle('show',y>800)}addEventListener('scroll',u,{passive:true});u();t.addEventListener('click',function(){scrollTo({top:0,behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'})});
+var ids=['services','brands','try','finder','gallery','faq'],secs=ids.map(function(i){return document.getElementById(i)});
+function spy(){var cur=-1;secs.forEach(function(x,k){if(x&&x.getBoundingClientRect().top<160)cur=k});
+document.querySelectorAll('.mm-header .elementor-nav-menu--main a.elementor-item').forEach(function(a){var h=(a.getAttribute('href')||'').split('#')[1];a.classList.toggle('mm-active',cur>-1&&h===ids[cur]);a.classList.remove('elementor-item-active')})}
+addEventListener('scroll',spy,{passive:true});addEventListener('load',spy);spy();})();</script>"""
 FOOTER = [con([
     con([
         con([LOGO(), H("Family-owned mobile LED billboard truck advertising company based in Dallas–Fort Worth, running campaigns across Texas and nationwide.",
