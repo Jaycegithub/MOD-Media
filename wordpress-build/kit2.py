@@ -160,6 +160,14 @@ h1.elementor-heading-title,h2.elementor-heading-title,h3.elementor-heading-title
 .mm-qform .elementor-button{border-radius:999px!important;padding:16px 26px!important;font:700 15px/1 Inter,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif!important;text-transform:none!important;letter-spacing:0!important;min-height:0!important;box-shadow:0 10px 40px -10px rgba(46,230,240,.7)}
 .mm-qform .e-form__buttons__wrapper__button-previous{background:rgba(255,255,255,.06)!important;color:#EEF2FB!important;border:1px solid rgba(255,255,255,.09)!important;box-shadow:none!important}
 .mm-qform .elementor-message{font-size:16px;color:#C8D1E6}
+/* long-form text (blog posts, city intros) */
+.mm-prose p,.mm-prose ul,.mm-prose ol{margin:0 0 18px}
+.mm-prose h2{font:800 32px/1.15 "Plus Jakarta Sans",Inter,system-ui,sans-serif;letter-spacing:-.02em;color:#EEF2FB;margin:40px 0 14px}
+.mm-prose h3{font:800 22px/1.25 "Plus Jakarta Sans",Inter,system-ui,sans-serif;letter-spacing:-.01em;color:#EEF2FB;margin:28px 0 10px}
+.mm-prose a{color:#2EE6F0;text-decoration:underline}
+.mm-prose li{margin-bottom:6px}
+.mm-prose blockquote{margin:24px 0;padding:4px 0 4px 18px;border-left:3px solid #2EE6F0;color:#EEF2FB}
+.mm-prose img{border-radius:16px}
 /* contact lines */
 .mm-cl a{text-decoration:underline}
 /* footer */
