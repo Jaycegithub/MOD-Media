@@ -116,10 +116,12 @@ DESIGN_TIPS = [
     ("One clear next step", "A phone number, a short web address or a QR code. Pick one and make it big."),
     ("Show the brand early", "Put your logo where it's seen first, so even a glance builds recognition."),
 ]
-TRACKING = ["Campaign photos and a report showing where and when your ad ran.",
-            "A QR code or short web address on the ad, so visits can be counted.",
-            "A promo code or dedicated phone number for responses.",
-            "Watch branded Google searches and website visits during the campaign."]
+TRACKING = ["<strong>Impressions:</strong> every unique phone within 50 yards of your truck is counted, measured by the Mobilytics platform.",
+            "<strong>Impressions by city and by hour:</strong> see which areas and times reached the most people.",
+            "<strong>Time in each city:</strong> how long your truck spent in each area.",
+            "<strong>GPS map:</strong> a map of everywhere your truck drove during the campaign.",
+            "<strong>Daily impressions:</strong> reported every day on monthly campaigns.",
+            "<strong>Campaign photos</strong> of your ad on the road."]
 CITY_LINKS = [("Dallas", "/mobile-billboards-dallas/"), ("Fort Worth", "/mobile-billboards-fort-worth/"), ("Arlington", "/mobile-billboards-arlington/"),
               ("Frisco & Plano", "/mobile-billboards-frisco-plano/"), ("Rockwall & Rowlett", "/mobile-billboards-rockwall-rowlett/"),
               ("Houston", "/mobile-billboards-houston/"), ("Austin", "/mobile-billboards-austin/"), ("San Antonio", "/mobile-billboards-san-antonio/")]
@@ -143,7 +145,7 @@ CAMPAIGN = [
                          "[Paragraph 3, 60–90 words: why businesses pick this length over the others. Link to the other campaign pages.]"])]),
         glance("At a glance", [("Length:", "[one day / a full week / a month or longer]"), ("Hours per day:", "[from Jamie]"),
                                ("Truck and screen:", "[screen size, video and sound, from Jamie]"), ("Where:", "Dallas–Fort Worth, Texas and nationwide"),
-                               ("Your ad:", "static, animated or video, changeable during the campaign"), ("Reporting:", "campaign photos and a report of where and when your ad ran")]))],
+                               ("Your ad:", "static, animated or video, changeable during the campaign"), ("Reporting:", "impressions, a GPS map and campaign photos")]))],
         title="Overview"),
     section("included", [
         *sec_head("What's included", "[H2: What you get with a [campaign type] campaign]",
@@ -175,9 +177,12 @@ CAMPAIGN = [
                                  "We format every ad for the LED screen. These four rules get the most from it."),
         grid([info_card(t, b, f"Tip {i + 1}") for i, (t, b) in enumerate(DESIGN_TIPS)], 4, 2, 1, 18)], pt=0, title="Design tips"),
     section("results", [two_col(
-        con([eyebrow("Measuring results"), h2("How you'll know it worked", 18, 560),
-             text_block(["[60–90 words: how results are tracked for this campaign length, and what a good outcome looks like.]"]),
-             bullets(TRACKING)]),
+        con([eyebrow("Measuring results"), h2("See exactly what your campaign delivered", 18, 560),
+             text_block(["Every MOD Media campaign comes with real data, not guesses. Your report shows how many people had the chance to see your ad, where and when.",
+                         "In one month-long campaign (Dec 2024 to Jan 2025), a single MOD Media truck recorded <strong>542,375 impressions, an average of 23,582 a day</strong>.",
+                         "[30–50 words: what this means for this campaign length.]"]),
+             bullets(TRACKING),
+             H("Add a QR code, short web address or promo code to your ad to count responses too.", 'p', 'card_p', 'muted', mt=6)]),
         Wd("image", image=img('mod-media-led-truck-night-campaign-texas'), image_size="large", css_classes="mm-gfig", height=px(380),
            height_mobile=px(240), _border_border="solid", _border_width=box(1), _border_color=LINE, _border_radius=box(20)), "1fr 1fr")],
         bg='bg_alt', title="Results"),
