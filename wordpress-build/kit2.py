@@ -168,6 +168,20 @@ h1.elementor-heading-title,h2.elementor-heading-title,h3.elementor-heading-title
 .mm-prose li{margin-bottom:6px}
 .mm-prose blockquote{margin:24px 0;padding:4px 0 4px 18px;border-left:3px solid #2EE6F0;color:#EEF2FB}
 .mm-prose img{border-radius:16px}
+/* breadcrumbs */
+.mm-crumbs{margin-bottom:18px}
+.mm-crumbs .rank-math-breadcrumb p{margin:0;font:500 13px/1.4 Inter,system-ui,sans-serif;color:#9AA6C2}
+.mm-crumbs .rank-math-breadcrumb a{color:#9AA6C2;text-decoration:none}
+.mm-crumbs .rank-math-breadcrumb a:hover{color:#EEF2FB}
+.mm-crumbs .rank-math-breadcrumb .separator{margin:0 8px;color:#2EE6F0}
+/* comparison table */
+.mm-table{overflow-x:auto}
+.mm-table table{width:100%;min-width:620px;border-collapse:separate;border-spacing:0;border:1px solid rgba(255,255,255,.09);border-radius:18px;overflow:hidden;background:#0B1020}
+.mm-table th,.mm-table td{padding:16px 18px;text-align:left;vertical-align:top;border-bottom:1px solid rgba(255,255,255,.09);border-left:0;border-right:0;border-top:0;background:none}
+.mm-table thead th{font:800 17px/1.3 "Plus Jakarta Sans",Inter,system-ui,sans-serif;color:#EEF2FB;background:#111830}
+.mm-table thead th a{color:#2EE6F0;text-decoration:none}
+.mm-table tbody td:first-child{font-weight:700;color:#EEF2FB;width:22%}
+.mm-table tbody tr:last-child td{border-bottom:0}
 /* contact lines */
 .mm-cl a{text-decoration:underline}
 /* footer */
