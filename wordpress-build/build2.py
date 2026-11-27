@@ -158,7 +158,7 @@ stats = [("12+", "national brands served, including HP, Intuit and the NFL"), ("
          ("100%", "share of voice: your truck shows only your ads"), ("Since 2023", "running LED truck campaigns")]
 HOME.append(section("services", [
     *sec_head("Our campaigns", "Dedicated LED billboard trucks, booked by the day, week or month",
-              "Every campaign gets its own digital billboard truck showing only your brand, with a custom route planned around your audience: business districts, events, neighborhoods and high-traffic corridors."),
+              "Every campaign gets its own digital billboard truck showing only your brand, with a custom plan for where and when it drives: business districts, events, neighborhoods and high-traffic corridors."),
     grid([svc("Launches &amp; events", "Daily Campaigns", "One high-impact day for a product launch, grand opening, conference or game day. Your brand on the move from morning to night.", "launches, activations, events", "Book a day →"),
           svc("Most booked", "Weekly Campaigns", "Repeat exposure across the week so your message sticks: ideal for promotions, openings, recruiting drives and seasonal pushes.", "promotions, seasonal campaigns", "Plan a week →"),
           svc("Maximum reach", "Monthly Campaigns", "Own the streets for a month or longer. Sustained brand awareness for national brands, political campaigns and market launches.", "brand awareness, market entry", "Talk long-term →"),
@@ -209,7 +209,7 @@ def step(n, t, b):
 HOME.append(section("how", [*sec_head("How it works", "On the road in four simple steps"),
     grid([step("01", "Tell us your goal", "Share your audience, cities and dates. We recommend a daily, weekly or monthly campaign."),
           step("02", "Send your ad", "Send us your artwork, or tell us your message and we'll help format it for the LED screen."),
-          step("03", "We plan &amp; drive", "We build a custom route around your audience and put your dedicated truck on the road."),
+          step("03", "We plan &amp; drive", "We plan where and when your truck drives, then put your dedicated truck on the road."),
           step("04", "See the results", "Get campaign photos and a report showing where and when your ad ran.")], 4, 2, 1, 18)],
     title="How it works"))
 
@@ -342,7 +342,7 @@ HOME.append(con([
 FAQ = [("What is a mobile LED billboard truck?", "It's a truck fitted with large, high-resolution digital LED screens that drives your ad through the areas where your audience lives, works and gathers, or parks it at an event or store. It's out-of-home (OOH) advertising that goes to the people instead of waiting for them to drive past."),
        ("How much does it cost to rent an LED billboard truck in Dallas?", "Pricing depends on the campaign length (daily, weekly or monthly), the hours per day and the city. Longer campaigns cost less per day. Tell us your goals and dates and we'll send a custom quote."),
        ("How long can a campaign run?", "From a single day for a launch or event, to a week for a promotion, to a month or longer for sustained brand awareness."),
-       ("Can I choose where the truck goes?", "Yes. Every campaign gets a custom route planned around your audience: business districts, neighborhoods, events, competitor locations or high-traffic corridors. The truck can also park at a set location."),
+       ("Can I choose where the truck goes?", "Yes. Every campaign gets a custom plan for where and when the truck drives: business districts, neighborhoods, events, competitor locations or high-traffic corridors. The truck can also park at a set location."),
        ("Can I change my ad during the campaign?", "Yes. Our digital screens can show static images, video or animated content, and you can rotate several ads or update your creative during the campaign."),
        ("Do you run campaigns outside Dallas?", "Yes. We're based in Dallas–Fort Worth and run campaigns across Texas, including Houston, Austin and San Antonio, as well as in other states."),
        ("How do I track the results?", "You'll receive campaign photos and a report showing where and when your ad ran. Adding a QR code, short URL or promo code to your ad makes responses easy to measure."),
