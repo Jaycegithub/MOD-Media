@@ -17,3 +17,15 @@ Source: "MOD Media Ads – Analytics Reporting" PDF, 5 pages, from the old site
   - Tagline: "With Mod Media Ads, you're not just seen – you're remembered."
   - Contact: (469) 279-2511 · Info@ModMediaAds.com · 181 County Line Road, Rockwall, TX 75032.
 - **Note:** the PDF uses "routes" throughout. The new site doesn't, per Jamie's instruction.
+
+## Jamie's answers (28 Nov 2026)
+- **Reports:** not automatic with every campaign. They're available when the client asks.
+- **Example result:** don't publish the Dec 2024 – Jan 2025 figure. Results vary a lot: some campaigns get 100,000 a day, others about a quarter of that.
+- **Screens:** 1920×1080 on each side, 1200×1080 on the rear.
+- **Hours:** a one-day campaign is 8 hours of activation.
+- **Prices:** none on the website, because they vary too much.
+- **Fort Worth and Arlington:** both served, each about 15–20 minutes from Dallas.
+- **Outside DFW:**
+  - There's no minimum campaign length.
+  - Prices drop with more days, more trucks, and so on.
+  - Travel fees can apply depending on distance.

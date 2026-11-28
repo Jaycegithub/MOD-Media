@@ -210,7 +210,7 @@ HOME.append(section("how", [*sec_head("How it works", "On the road in four simpl
     grid([step("01", "Tell us your goal", "Share your audience, cities and dates. We recommend a daily, weekly or monthly campaign."),
           step("02", "Send your ad", "Send us your artwork, or tell us your message and we'll help format it for the LED screen."),
           step("03", "We plan &amp; drive", "We plan where and when your truck drives, then put your dedicated truck on the road."),
-          step("04", "See the results", "Get campaign photos and a report showing where and when your ad ran.")], 4, 2, 1, 18)],
+          step("04", "See the results", "Get campaign photos of your ad on the road, and a full impressions report on request.")], 4, 2, 1, 18)],
     title="How it works"))
 
 # ---- GALLERY (6-col grid, 170px rows, 14px gaps) -------------------
@@ -345,7 +345,7 @@ FAQ = [("What is a mobile LED billboard truck?", "It's a truck fitted with large
        ("Can I choose where the truck goes?", "Yes. Every campaign gets a custom plan for where and when the truck drives: business districts, neighborhoods, events, competitor locations or high-traffic corridors. The truck can also park at a set location."),
        ("Can I change my ad during the campaign?", "Yes. Our digital screens can show static images, video or animated content, and you can rotate several ads or update your creative during the campaign."),
        ("Do you run campaigns outside Dallas?", "Yes. We're based in Dallas–Fort Worth and run campaigns across Texas, including Houston, Austin and San Antonio, as well as in other states."),
-       ("How do I track the results?", "You'll receive campaign photos and a report showing where and when your ad ran. Adding a QR code, short URL or promo code to your ad makes responses easy to measure."),
+       ("How do I track the results?", "You'll receive campaign photos, and on request a report with impressions and a GPS map of where your truck drove. Adding a QR code, short URL or promo code to your ad makes responses easy to measure."),
        ("Do you work with advertising agencies?", "Yes. We regularly support media and advertising agencies adding mobile billboards to their clients' campaigns.")]
 HOME.append(section("faq", [*sec_head("Questions", "Good questions, straight answers"),
     Wd("accordion", tabs=[{"_id": nid(), "tab_title": q, "tab_content": f"<p>{a}</p>"} for q, a in FAQ], css_classes="mm-faq",
