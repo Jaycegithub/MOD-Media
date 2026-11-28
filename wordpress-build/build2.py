@@ -410,7 +410,7 @@ HOME[-1]["elements"][0]["elements"][0]["elements"][1]["settings"]["_margin"] = b
 HOME[-1]["elements"][0]["elements"][0]["elements"][2]["settings"].pop("_element_custom_width", None)
 
 # =====================================================================
-LOGO = lambda w=238: Wd("image", image=img('mod-media-logo'), image_size="full", width=px(w), link_to="custom",
+LOGO = lambda w=200: Wd("image", image=img('mod-media-logo-newest'), image_size="full", width=px(w), link_to="custom",
                         link={"url": "/", "is_external": "", "nofollow": ""}, align="left", _title="Logo", _flex_size="none")
 HEADER = [con([
     LOGO(),
